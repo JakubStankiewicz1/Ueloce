@@ -1,0 +1,32 @@
+.homeChessboard {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: -4px; /* Remove any gap between navbar and chessboard */
+}
+
+.homeChessboardContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chessboardRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 15px;
+}
+
+.chessSquare {
+    width: 15px;
+    height: 15px;
+}
+
+.chessSquare-black {
+    background-color: #000;
+}
+
+.chessSquare-white {
+    background-color: #fff;
+}
