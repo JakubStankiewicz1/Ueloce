@@ -9,6 +9,7 @@ import HomeDrinks from '../../components/HomeDrinks/HomeDrinks';
 import FindUs from '../../components/FindUs/FindUs';
 import HomeFindStocklist from '../../components/HomeFindStocklist/HomeFindStocklist';
 import HomeContact from '../../components/HomeContact/HomeContact';
+import HomeFotter from '../../components/HomeFotter/HomeFotter';
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
             <FindUs />
             <HomeFindStocklist />
             <HomeContact />
+            <HomeFotter />
         </div>
     </div>
   )
