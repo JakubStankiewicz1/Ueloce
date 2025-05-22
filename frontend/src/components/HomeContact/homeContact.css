@@ -54,9 +54,19 @@
     justify-content: center;
 }
 
+.homeContactContainerLeftContainerTopContainer,
+.homeContactContainerLeftContainerBottomContainer,
+.homeContactContainerRightContainerTopContainer,
+.homeContactContainerRightContainerBottomContainer {
+    cursor: pointer;
+}
 
-
-
+.homeContactContainerLeftContainerTopContainer:hover .homeContactContainerLeftContainerTopContainerText,
+.homeContactContainerLeftContainerBottomContainer:hover .homeContactContainerLeftContainerBottomContainerText,
+.homeContactContainerRightContainerTopContainer:hover .homeContactContainerRightContainerTopContainerText, 
+.homeContactContainerRightContainerBottomContainer:hover .homeContactContainerRightContainerBottomContainerText {
+    color: #4C4C4C;
+}
 
 
 
