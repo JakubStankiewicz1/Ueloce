@@ -1,5 +1,7 @@
 .homeChessboard {
-    width: 100%;
+    width: 100%;  /* Changed from 100% to 90% */
+    margin-left: auto;  /* Center the chessboard */
+    margin-right: auto;
     overflow: hidden;
     position: relative;
     margin-top: -4px; /* Remove any gap between navbar and chessboard */

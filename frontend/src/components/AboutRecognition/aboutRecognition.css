@@ -1,0 +1,427 @@
+.aboutRecognition {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutRecognitionContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutRecognitionContainerTop {
+    width: 100%;
+    height: 800px;
+    background-color: transparent;
+}
+
+.aboutRecognitionContainerTopContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutRecognitionContainerTopContainerLeft {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #CD9D65;
+}
+
+.aboutRecognitionContainerTopContainerLeftContainer {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.aboutRecognitionContainerTopContainerLeftContainerTopContainerText {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+}
+
+
+
+.aboutRecognitionContainerTopContainerLeftContainerMiddle {
+    margin-top: 60px;
+}
+
+.aboutRecognitionContainerTopContainerLeftContainerMiddleContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 12px;
+}
+
+.aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    gap: 30px;
+}
+
+.aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeftContainerText {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+
+.aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementRightContainerText {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 39px;
+    text-transform: uppercase;
+}
+
+
+
+
+.aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementDivider {
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutRecognitionContainerTopContainerRight {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+}
+
+/* Image container styling */
+.aboutRecognitionContainerTopContainerRightImg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.aboutRecognitionContainerTopContainerRightContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutRecognitionContainerTopContainerRightContainerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Text container styling */
+.aboutRecognitionContainerTopContainerRightText {
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+    z-index: 10;
+    width: 90%; /* Change from 80% to 90% */
+    max-width: none; /* Remove max-width constraint */
+}
+
+
+
+.aboutRecognitionContainerTopContainerRightTextContainerOneContainerButton {
+    /* background-color: #0F0F0F; */
+    border: 1px solid #FFFFFF;
+    width: 170px;
+    height: 55px;
+    /* Create egg shape with different border radius values */
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    /* Add a slight transform to enhance the egg shape */
+    transform: scaleY(0.85);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.aboutRecognitionContainerTopContainerRightTextContainerOneContainerButtonContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Counteract the parent transform to keep text normal */
+    transform: scaleY(1.18);
+    /* background-color: red; */
+}
+
+.aboutRecognitionContainerTopContainerRightTextContainerOneContainerButtonContainerText {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutRecognitionContainerTopContainerRightTextContainerTwo {
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.aboutRecognitionContainerTopContainerRightTextContainerTwoContainerText {
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 120px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutRecognitionContainerTopContainerRightTextContainerThree {
+    /* background-color: red; */
+}
+
+.aboutChessboard {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 15px;
+    /* background-color: blue; */
+}
+
+.aboutChessboardRow {
+    /* width: 500px; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 17px;
+}
+
+.aboutChessSquare {
+    width: 17px;
+    height: 17px;
+}
+
+.aboutChessSquare-white {
+    background-color: #fff;
+}
+/* 
+.aboutChessSquare-lightgray {
+    background-color: #f0f0f0;
+} */

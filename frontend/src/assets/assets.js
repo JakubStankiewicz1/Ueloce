@@ -1,12 +1,11 @@
 import HomeNavbarImageOne from "./HomeNavbarImageOne.svg";
 import HomeHeroImg from "./HomeHeroImg.avif";
 import HomePrimaveraImage from "./HomePrimaveraImage.avif";
-
 import DrinkOne from "./DrinkOne.webp";
-
 import HomeFindStocklist from "./HomeFindStocklistImage.avif";
-
 import FindUsHero from "./FindUsHeroImage.avif";
+import AboutRecognitionOne from "./AboutRecognitionImageOne.webp";
+import AboutRecognitionTwo from "./AboutRecognitionImageTwo.webp";
 
 export default {
     HomeNavbarImageOne,
@@ -14,5 +13,7 @@ export default {
     HomePrimaveraImage,
     DrinkOne,
     HomeFindStocklist,
-    FindUsHero
+    FindUsHero,
+    AboutRecognitionOne,
+    AboutRecognitionTwo,
 };
