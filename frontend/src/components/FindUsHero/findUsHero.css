@@ -1,176 +1,164 @@
 .findUsHero {
-    width: 100%;
-    height: 630px;
+  width: 100%;
+  height: 630px;
 }
 
 .findUsHeroContainer {
-    width: 100%;
-    height: 100%;
-    position: relative;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 .findUsHeroContainerImage {
-    width: 100%;
-    height: 630px;
-    overflow: hidden;
+  width: 100%;
+  height: 630px;
+  overflow: hidden;
 }
 
 .findUsHeroContainerImageContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-/* Image overlay */
 .findUsHeroContainerImageOverlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.2); /* Add subtle dark overlay */
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .findUsHeroContainerImageContainerImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
 }
 
-/* Text Container Styling */
 .findUsHeroContainerText {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #FFFFFF;
-    /* width: 80%; */
-    width: 1000px;
-    z-index: 10; /* Ensure text appears above the overlay */
-    /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.); */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  width: 1000px;
+  z-index: 10;
 }
 
 .findUsHeroContainerTextContainer {
-    width: 100%;
-    /* padding: 40px; */
-    padding-top: 40px;
-    padding-bottom: 40px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .findUsHeroContainerTextContainerTop {
-    margin-bottom: 45px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin-bottom: 45px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .findUsHeroContainerTextContainerTopContainerText {
-    color: #000000;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 17px;
-    text-transform: uppercase;
-    letter-spacing: -0.8px;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
+  letter-spacing: -0.8px;
 }
 
 .findUsHeroContainerTextContainerBottom {
-    width: 100%;
+  width: 100%;
 }
 
 .findUsHeroContainerTextContainerBottomContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .findUsHeroContainerTextContainerBottomContainerDivOne,
 .findUsHeroContainerTextContainerBottomContainerDivTwo,
 .findUsHeroContainerTextContainerBottomContainerDivThree {
-    width: 100%;
-    height: 1px;
-    background-color: black;
+  width: 100%;
+  height: 1px;
+  background-color: black;
 }
 
 .findUsHeroContainerTextContainerBottomContainerDivTwo,
 .findUsHeroContainerTextContainerBottomContainerDivThree {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
-/* Style for each location section */
 .findUsHeroContainerTextContainerBottomContainerOne,
 .findUsHeroContainerTextContainerBottomContainerTwo,
 .findUsHeroContainerTextContainerBottomContainerThree {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
-/* Style for the container with location name and details */
 .findUsHeroContainerTextContainerBottomContainerOneContainer,
 .findUsHeroContainerTextContainerBottomContainerTwoContainer,
 .findUsHeroContainerTextContainerBottomContainerThreeContainer {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .findUsHeroContainerTextContainerBottomContainerOneContainerLeft,
 .findUsHeroContainerTextContainerBottomContainerTwoContainerLeft,
 .findUsHeroContainerTextContainerBottomContainerThreeContainerLeft {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .findUsHeroContainerTextContainerBottomContainerOneContainerRight,
 .findUsHeroContainerTextContainerBottomContainerTwoContainerRight,
 .findUsHeroContainerTextContainerBottomContainerThreeContainerRight {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
-/* Style for location name (USA, Europe, Asia) */
 .findUsHeroContainerTextContainerBottomContainerOneContainerLeftContainerText,
 .findUsHeroContainerTextContainerBottomContainerTwoContainerLeftContainerText,
 .findUsHeroContainerTextContainerBottomContainerThreeContainerLeftContainerText {
-    color: #000000;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 17px;
-    text-transform: uppercase;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
 }
 
-/* Style for store name */
 .findUsHeroContainerTextContainerBottomContainerOneContainerRightContainerTextOne,
 .findUsHeroContainerTextContainerBottomContainerTwoContainerRightContainerTextOne,
 .findUsHeroContainerTextContainerBottomContainerThreeContainerRightContainerTextOne {
-    color: #000000;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 17px;
-    text-transform: uppercase;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
 }
 
-/* Style for email and phone */
 .findUsHeroContainerTextContainerBottomContainerOneContainerRightContainerTextTwo,
 .findUsHeroContainerTextContainerBottomContainerOneContainerRightContainerTextThree,
 .findUsHeroContainerTextContainerBottomContainerTwoContainerRightContainerTextTwo,
 .findUsHeroContainerTextContainerBottomContainerThreeContainerRightContainerTextTwo {
-    color: #000000;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 17px;
-    text-transform: uppercase;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
 }

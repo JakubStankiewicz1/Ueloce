@@ -1,691 +1,340 @@
 .aboutRecognition {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .aboutRecognitionContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .aboutRecognitionContainerTop {
-    width: 100%;
-    height: 800px;
-    background-color: transparent;
+  width: 100%;
+  height: 800px;
+  background-color: transparent;
 }
 
 .aboutRecognitionContainerTopContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .aboutRecognitionContainerTopContainerLeft {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    width: 100%;
-    height: 100%;
-    background-color: #CD9D65;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #cd9d65;
 }
 
 .aboutRecognitionContainerTopContainerLeftContainer {
-    width: 93%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
 }
-
-
 
 .aboutRecognitionContainerTopContainerLeftContainerTopContainerText {
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 17px;
-    letter-spacing: -0.8px;
-    text-transform: uppercase;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
 }
 
-
-
 .aboutRecognitionContainerTopContainerLeftContainerMiddle {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .aboutRecognitionContainerTopContainerLeftContainerMiddleContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 12px;
 }
 
 .aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementContainer {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  gap: 30px;
 }
 
 .aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeftContainerText {
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 17px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
 }
-
 
 .aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementRightContainerText {
-    color: #FFFFFF;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 39px;
-    text-transform: uppercase;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  text-transform: uppercase;
 }
-
-
-
 
 .aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementDivider {
-    width: 100%;
-    height: 1px;
-    background-color: #FFFFFF;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .aboutRecognitionContainerTopContainerRight {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
 }
 
-/* Image container styling */
 .aboutRecognitionContainerTopContainerRightImg {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 .aboutRecognitionContainerTopContainerRightContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutRecognitionContainerTopContainerRightContainerImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* Text container styling */
 .aboutRecognitionContainerTopContainerRightText {
-    position: absolute;
-    bottom: 50px;
-    left: 35px;
-    z-index: 10;
-    width: 90%; /* Change from 80% to 90% */
-    max-width: none; /* Remove max-width constraint */
+  position: absolute;
+  bottom: 50px;
+  left: 35px;
+  z-index: 10;
+  width: 90%;
+  max-width: none;
 }
-
-
 
 .aboutRecognitionContainerTopContainerRightTextContainerOneContainerButton {
-    /* background-color: #0F0F0F; */
-    border: 1px solid #FFFFFF;
-    width: 170px;
-    height: 55px;
-    /* Create egg shape with different border radius values */
-    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-    /* Add a slight transform to enhance the egg shape */
-    transform: scaleY(0.85);
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
+  border: 1px solid #ffffff;
+  width: 170px;
+  height: 55px;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  transform: scaleY(0.85);
+  position: relative;
+  overflow: hidden;
 }
 
 .aboutRecognitionContainerTopContainerRightTextContainerOneContainerButtonContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* Counteract the parent transform to keep text normal */
-    transform: scaleY(1.18);
-    /* background-color: red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scaleY(1.18);
 }
 
 .aboutRecognitionContainerTopContainerRightTextContainerOneContainerButtonContainerText {
-    color: #FFFFFF;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 36px;
-    text-transform: uppercase;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .aboutRecognitionContainerTopContainerRightTextContainerTwo {
-    padding-left: 40px;
-    margin-top: 20px;
+  padding-left: 40px;
+  margin-top: 20px;
 }
 
 .aboutRecognitionContainerTopContainerRightTextContainerTwoContainerText {
-    font-size: 150px;
-    font-weight: 400;
-    line-height: 120px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.aboutRecognitionContainerTopContainerRightTextContainerThree {
-    /* background-color: red; */
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 120px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .aboutChessboard {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    margin-top: 15px;
-    /* background-color: blue; */
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 15px;
 }
 
 .aboutChessboardRow {
-    /* width: 500px; */
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    height: 17px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 17px;
 }
 
 .aboutChessSquare {
-    width: 17px;
-    height: 17px;
+  width: 17px;
+  height: 17px;
 }
 
 .aboutChessSquare-white {
-    background-color: #fff;
+  background-color: #fff;
 }
-/* 
-.aboutChessSquare-lightgray {
-    background-color: #f0f0f0;
-} */
-
-
 
 .aboutRecognitionContainerBottom {
-    width: 100%;
-    height: 800px;
+  width: 100%;
+  height: 800px;
 }
 
 .aboutRecognitionContainerBottomContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .aboutRecognitionContainerBottomContainerLeft {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 .aboutRecognitionContainerBottomContainerLeftContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .aboutRecognitionContainerBottomContainerLeftContainerImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(100%);
 }
 
 .aboutRecognitionContainerBottomContainerRight {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    position: relative;
-    background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  background-color: #000000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .aboutRecognitionContainerBottomContainerRightContainer {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
-
 
 .aboutRecognitionContainerBottomContainerRightContainerTop {
-    position: relative
+  position: relative;
 }
 
-
-
-
 .aboutRecognitionContainerBottomContainerRightContainerTopContainerTopContainerText {
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 17px;
-    text-transform: uppercase;
-    letter-spacing: -0.8px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
+  letter-spacing: -0.8px;
 }
 
 .aboutRecognitionContainerBottomContainerRightContainerTopContainerBottom {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElement {
-    width: 100%;
+  width: 100%;
 }
 
 .aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeft {
-    display: flex;
-    flex: 1;
+  display: flex;
+  flex: 1;
 }
 
 .aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRight {
-    display: flex;
-    flex: 1.3;
+  display: flex;
+  flex: 1.3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeftContainerText,
 .aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainerText {
-    color: #FFFFFF;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 39px;
-    letter-spacing: -1px;
-    text-transform: uppercase;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .aboutRecognitionContainerBottomContainerRightContainerBottom {
-    position: absolute;
-    bottom: 40px;
-    width: 100%;
-    left: 0;
-    right: 0;
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  left: 0;
+  right: 0;
 }
 
 .aboutRecognitionContainerBottomContainerRightContainerBottomContainer {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .aboutRecognitionContainerBottomContainerRightContainerBottomContainerHrDiv {
-    width: 100%;
-    height: 1px;
-    background-color: #FFFFFF;
-    margin-bottom: 20px;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .aboutRecognitionContainerBottomContainerRightContainerBottomContainerTextCon {
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .aboutRecognitionContainerBottomContainerRightContainerBottomContainerTextConText {
-    color: #FFFFFF;
-    font-size: 150px;
-    font-weight: 400;
-    line-height: 120px;
+  color: #ffffff;
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 120px;
 }

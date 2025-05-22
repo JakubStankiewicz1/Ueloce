@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Jaro:opsz@6..72&family=Staatliches&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Jaro:opsz@6..72&family=Staatliches&display=swap");
 
 * {
   margin: 0;
@@ -10,18 +9,11 @@
 body {
   font-family: sans-serif;
   overflow: auto;
-  /* scrollbar-width: none; */
 }
 
 html {
   overflow: auto;
-  /* scrollbar-width: none; */
 }
-
-/* body::-webkit-scrollbar,
-html::-webkit-scrollbar {
-  display: none;
-} */
 
 a {
   text-decoration: none;
@@ -32,14 +24,11 @@ a {
   color: #EFE7D2; */
 }
 
-
-
 .staatliches-regular {
   font-family: "Staatliches", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
 
 .jaro-regular {
   font-family: "Jaro", sans-serif;
@@ -47,8 +36,6 @@ a {
   font-weight: 400;
   font-style: normal;
 }
-
-
 
 .geist-regular {
   font-family: "Geist", sans-serif;

@@ -29,7 +29,7 @@ const Navbar = () => {
 
                     {/* Middle Part */}
                     <div className="navbarContainerRightContainerMiddle">
-                        <NavLink to="/" className="navbarContainerRightContainerMiddleContainer">
+                        <NavLink to="/find-us" className="navbarContainerRightContainerMiddleContainer">
                             <p className="navbarContainerRightContainerMiddleContainerText jaro-regular">
                                 Find Us
                             </p>

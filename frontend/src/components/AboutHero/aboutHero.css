@@ -13,7 +13,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: 40px; */
 }
 
 .aboutHeroContainerTop {
@@ -33,12 +32,6 @@
     text-transform: uppercase;
 }
 
-
-
-
-
-
-
 .aboutHeroContainerBottom {
     width: 95%;
     height: 100%;
@@ -55,7 +48,6 @@
     font-size: 60px;
     font-weight: 400;
     line-height: 66px;
-    /* letter-spacing: -1.5px; */
     text-align: center;
     text-transform: uppercase;
 }

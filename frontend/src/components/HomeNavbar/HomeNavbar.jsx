@@ -40,7 +40,7 @@ const HomeNavbar = () => {
 
                                 {/* Left Part */}
                                 <div className="homeNavbarContainerRightContainerBottomContainerLeft">
-                                    <NavLink to="/" className="homeNavbarContainerRightContainerBottomContainerLeftContainer">
+                                    <NavLink to="/about" className="homeNavbarContainerRightContainerBottomContainerLeftContainer">
                                         <p className="homeNavbarContainerRightContainerBottomContainerLeftContainerText jaro-regular">
                                             About
                                         </p>

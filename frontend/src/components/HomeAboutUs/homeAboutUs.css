@@ -1,68 +1,55 @@
 .homeAboutUs {
-    width: 100%;
-    height: 500px;
-    background-color: #FFFFFF;
+  width: 100%;
+  height: 500px;
+  background-color: #ffffff;
 }
 
 .homeAboutUsContainer {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 25px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
 }
 
-
 .homeAboutUsContainerTopContainerText {
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 66px;
-    color: #000000;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 66px;
+  color: #000000;
 }
 
 .homeAboutUsContainerBottom {
-    margin-top: 30px;
+  margin-top: 30px;
 }
-
-
-
-
 
 .homeAboutUsContainerBottomContainerButton {
-    /* background-color: #0F0F0F; */
-    border: 1px solid #0F0F0F;
-    width: 150px;
-    height: 65px;
-    /* Create egg shape with different border radius values */
-    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-    /* Add a slight transform to enhance the egg shape */
-    transform: scaleY(0.85);
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
+  border: 1px solid #0f0f0f;
+  width: 150px;
+  height: 65px;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  transform: scaleY(0.85);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-
-
 .homeAboutUsContainerBottomContainerButtonContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* Counteract the parent transform to keep text normal */
-    transform: scaleY(1.18);
-    /* background-color: red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scaleY(1.18);
 }
 
 .homeAboutUsContainerBottomContainerButtonContainer:hover {
-    background-color: #E6E6E6;
-    /* border: 1px solid #000000; */
+  background-color: #e6e6e6;
 }
 
 .homeAboutUsContainerBottomContainerButtonContainerText {
-    color: #0F0F0F;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 36px;
-    text-transform: uppercase;
+  color: #0f0f0f;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: uppercase;
 }

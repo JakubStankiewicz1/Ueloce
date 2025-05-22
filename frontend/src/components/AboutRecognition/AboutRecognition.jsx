@@ -6,26 +6,19 @@ const AboutRecognition = () => {
   const [squares, setSquares] = useState(0);
 
   useEffect(() => {
-    // Calculate how many squares we need based on container width
     const calculateSquares = () => {
-      // Use a standard number of squares for the small container
-      setSquares(40); // You can adjust this number as needed
+      setSquares(40);
     };
 
-    // Calculate initially
     calculateSquares();
     
-    // Recalculate when window is resized
     window.addEventListener('resize', calculateSquares);
     
-    // Cleanup
     return () => window.removeEventListener('resize', calculateSquares);
   }, []);
 
-  // Create array for each row
   const renderSquares = (rowOffset) => {
     return Array(squares).fill(null).map((_, index) => {
-      // Determine if square should be white or light-gray
       const isWhite = (index + rowOffset) % 2 === 0;
       const squareClass = isWhite ? 'aboutChessSquare-white' : 'aboutChessSquare-lightgray';
       
@@ -307,14 +300,6 @@ const AboutRecognition = () => {
 
 
 
-
-
-
-
-
-
-
-
             {/* Bottom Part */}
             <div className="aboutRecognitionContainerBottom">
                 <div className="aboutRecognitionContainerBottomContainer">
@@ -431,17 +416,6 @@ const AboutRecognition = () => {
 
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
             
         </div>
     </div>

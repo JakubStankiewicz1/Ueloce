@@ -39,18 +39,16 @@
     object-position: center center;
 }
 
-/* Image Overlay */
 .homePrimaveraContainerImageOverlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3); /* Adjust opacity as needed */
+    background-color: rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
 
-/* Text Container Styling */
 .homePrimaveraContainerText {
     position: absolute;
     top: 50%;
@@ -65,33 +63,24 @@
 .homePrimaveraContainerTextContainer {
     display: flex;
     flex-direction: column;
-    /* gap: 20px; */
     align-items: center;
 }
 
 
 .homePrimaveraContainerTextContainerTop {
-    /* background-color: red; */
     width: 100%;
     display: flex;
     justify-content: flex-start;
 }
 
-
-
-/* Top Part - "New" button */
 .homePrimaveraContainerTextContainerTopContainerButton {
-    /* background-color: #0F0F0F; */
     border: 1px solid #FFFFFF;
     width: 110px;
     height: 55px;
-    /* Create egg shape with different border radius values */
     border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-    /* Add a slight transform to enhance the egg shape */
     transform: scaleY(0.85);
     position: relative;
     overflow: hidden;
-    /* cursor: pointer; */
 }
 
 .homePrimaveraContainerTextContainerTopContainerButtonContainer {
@@ -100,9 +89,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Counteract the parent transform to keep text normal */
     transform: scaleY(1.18);
-    /* background-color: red; */
 }
 
 .homePrimaveraContainerTextContainerTopContainerButtonContainerText {
@@ -113,17 +100,6 @@
     text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* Middle Part - "Primavera" title */
 .homePrimaveraContainerTextContainerMiddleContainerText {
     font-size: 150px;
     font-weight: 400;
@@ -132,7 +108,6 @@
     text-transform: uppercase;
 }
 
-/* Bottom Part - Description */
 .homePrimaveraContainerTextContainerBottomContainerText {
     font-size: 30px;
     font-weight: 400;
