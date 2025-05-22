@@ -25,6 +25,7 @@ const Home = () => {
             <HomeFindStocklist />
             <HomeContact />
             <HomeFotter />
+            <HomeChessboard />
         </div>
     </div>
   )
