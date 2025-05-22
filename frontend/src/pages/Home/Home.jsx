@@ -5,6 +5,7 @@ import HomeChessboard from '../../components/HomeChessboard/HomeChessboard';
 import HomeHero from '../../components/HomeHero/HomeHero';
 import HomeAboutUs from '../../components/HomeAboutUs/HomeAboutUs';
 import HomePrimavera from '../../components/HomePrimavera/HomePrimavera';
+import HomeDrinks from '../../components/HomeDrinks/HomeDrinks';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
             <HomeHero />
             <HomeAboutUs />
             <HomePrimavera />
+            <HomeDrinks />
         </div>
     </div>
   )
