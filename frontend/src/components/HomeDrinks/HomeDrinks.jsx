@@ -8,8 +8,8 @@ const HomeDrinks = () => {
     <div className='homeDrinks'>
         <div className="homeDrinksContainer">
             <Drink name={"Lavande"} size={"25"} image={assets.DrinkOne} description={"A delicate and floral aperitif with notes of lavender and chamomile."} />
-            {/* <Drink name={"Lavande"} size={"25"} image={assets.DrinkOne} description={"A delicate and floral aperitif with notes of lavender and chamomile."} /> */}
-            {/* <Drink name={"Lavande"} size={"25"} image={assets.DrinkOne} description={"A delicate and floral aperitif with notes of lavender and chamomile."} /> */}
+            <Drink name={"Lavande"} size={"25"} image={assets.DrinkOne} description={"A delicate and floral aperitif with notes of lavender and chamomile."} />
+            <Drink name={"Lavande"} size={"25"} image={assets.DrinkOne} description={"A delicate and floral aperitif with notes of lavender and chamomile."} />
         </div>
     </div>
   )

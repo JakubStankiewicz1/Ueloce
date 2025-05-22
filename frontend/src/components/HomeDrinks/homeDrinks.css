@@ -1,0 +1,14 @@
+.homeDrinks {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+}
+
+.homeDrinksContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
