@@ -91,7 +91,7 @@
     transform: scaleY(0.85);
     position: relative;
     overflow: hidden;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .homePrimaveraContainerTextContainerTopContainerButtonContainer {

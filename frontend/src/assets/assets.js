@@ -6,6 +6,8 @@ import HomeFindStocklist from "./HomeFindStocklistImage.avif";
 import FindUsHero from "./FindUsHeroImage.avif";
 import AboutRecognitionOne from "./AboutRecognitionImageOne.webp";
 import AboutRecognitionTwo from "./AboutRecognitionImageTwo.webp";
+import DrinkTwo from "./DrinkTwo.webp";
+import DrinkThree from "./DrinkThree.avif";
 
 export default {
     HomeNavbarImageOne,
@@ -16,4 +18,6 @@ export default {
     FindUsHero,
     AboutRecognitionOne,
     AboutRecognitionTwo,
+    DrinkTwo,
+    DrinkThree
 };

@@ -55,16 +55,12 @@
 }
 
 .homeContactContainerLeftContainerTopContainer,
-.homeContactContainerLeftContainerBottomContainer,
-.homeContactContainerRightContainerTopContainer,
-.homeContactContainerRightContainerBottomContainer {
+.homeContactContainerLeftContainerBottomContainer {
     cursor: pointer;
 }
 
 .homeContactContainerLeftContainerTopContainer:hover .homeContactContainerLeftContainerTopContainerText,
-.homeContactContainerLeftContainerBottomContainer:hover .homeContactContainerLeftContainerBottomContainerText,
-.homeContactContainerRightContainerTopContainer:hover .homeContactContainerRightContainerTopContainerText, 
-.homeContactContainerRightContainerBottomContainer:hover .homeContactContainerRightContainerBottomContainerText {
+.homeContactContainerLeftContainerBottomContainer:hover .homeContactContainerLeftContainerBottomContainerText {
     color: #4C4C4C;
 }
 

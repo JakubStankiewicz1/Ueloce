@@ -10,9 +10,9 @@ const HomeNavbar = () => {
             <div className="homeNavbarContainerDiv">
                 {/* Left Part */}
                 <div className="homeNavbarContainerLeft">
-                    <div className="homeNavbarContainerLeftContainer">
+                    <NavLink to="/" className="homeNavbarContainerLeftContainer">
                         <img src={assets.HomeNavbarImageOne} alt="" className='homeNavbarContainerLeftContainerImg' />
-                    </div>
+                    </NavLink>
                 </div>
 
                 {/* Right Part */}

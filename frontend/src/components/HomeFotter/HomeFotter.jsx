@@ -1,5 +1,6 @@
 import React from 'react';
 import "./homeFotter.css";
+import { NavLink } from 'react-router-dom';
 
 const HomeFotter = () => {
   return (
@@ -7,11 +8,11 @@ const HomeFotter = () => {
         <div className="homeFotterContainer">
             {/* Left Part */}
             <div className="homeFotterContainerLeft">
-                <div className="homeFotterContainerLeftContainer">
+                <NavLink to="/" className="homeFotterContainerLeftContainer">
                     <p className="homeFotterContainerLeftContainerText jaro-regular">
                         Véloce
                     </p>
-                </div>
+                </NavLink>
             </div>
 
             {/* Right Part */}

@@ -26,6 +26,13 @@
     align-items: center;
 }
 
+.homeFotterContainerLeftContainer {
+    /* background-color: red; */
+    /* width: 100%; */
+    height: 100%;
+    cursor: pointer;
+}
+
 .homeFotterContainerLeftContainerText {
     font-size: 240px;
     font-weight: 400;
@@ -42,7 +49,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    padding-bottom: 55px;
+    padding-bottom: 15px;
     justify-content: flex-end;
 }
 
