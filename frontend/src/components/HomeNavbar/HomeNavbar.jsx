@@ -49,7 +49,7 @@ const HomeNavbar = () => {
 
                                 {/* Middle Part */}
                                 <div className="homeNavbarContainerRightContainerBottomContainerMiddle">
-                                    <NavLink to="/" className="homeNavbarContainerRightContainerBottomContainerMiddleContainer">
+                                    <NavLink to="/find-us" className="homeNavbarContainerRightContainerBottomContainerMiddleContainer">
                                         <p className="homeNavbarContainerRightContainerBottomContainerMiddleContainerText jaro-regular">
                                             Find stockists
                                         </p>
