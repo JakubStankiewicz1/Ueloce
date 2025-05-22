@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Forum', cursive;
+  font-family: sans-serif;
   overflow: auto;
   /* scrollbar-width: none; */
 }
