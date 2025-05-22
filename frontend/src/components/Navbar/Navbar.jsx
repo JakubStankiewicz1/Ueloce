@@ -20,7 +20,7 @@ const Navbar = () => {
                 <div className="navbarContainerRightContainer">
                     {/* Left Part */}
                     <div className="navbarContainerRightContainerLeft">
-                        <NavLink to="/" className="navbarContainerRightContainerLeftContainer">
+                        <NavLink to="/about" className="navbarContainerRightContainerLeftContainer">
                             <p className="navbarContainerRightContainerLeftContainerText jaro-regular">
                                 About
                             </p>
