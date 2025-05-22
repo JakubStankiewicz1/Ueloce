@@ -305,12 +305,144 @@ const AboutRecognition = () => {
                 </div>
             </div>
 
+
+
+
+
+
+
+
+
+
+
             {/* Bottom Part */}
             <div className="aboutRecognitionContainerBottom">
                 <div className="aboutRecognitionContainerBottomContainer">
 
+                    {/* Left Part */}
+                    <div className="aboutRecognitionContainerBottomContainerLeft">
+                        <div className="aboutRecognitionContainerBottomContainerLeftContainer">
+                            <img src={assets.AboutRecognitionTwo} alt="" className='aboutRecognitionContainerBottomContainerLeftContainerImage' />
+                        </div>
+                    </div>
+
+                    {/* Right Part */}
+                    <div className="aboutRecognitionContainerBottomContainerRight">
+                        <div className="aboutRecognitionContainerBottomContainerRightContainer">
+                            {/* Top Part */}
+                            <div className="aboutRecognitionContainerBottomContainerRightContainerTop">
+                                <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainer">
+                                    <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerTop">
+                                        <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerTopContainer">
+                                            <p className="aboutRecognitionContainerBottomContainerRightContainerTopContainerTopContainerText geist-regular">
+                                                Contact
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottom">
+                                        <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainer">
+
+                                            <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElement">
+                                                <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainer">
+                                                    {/* Left Part */}
+                                                    <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeft">
+                                                        <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeftContainer">
+                                                            <p className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeftContainerText staatliches-regular">
+                                                                Phone
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                    {/* Right Part */}
+                                                    <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRight">
+                                                        <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainer">
+                                                            <p className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainerText staatliches-regular">
+                                                                415-555-4567
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElement">
+                                                <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainer">
+                                                    {/* Left Part */}
+                                                    <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeft">
+                                                        <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeftContainer">
+                                                            <p className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeftContainerText staatliches-regular">
+                                                                email
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                    {/* Right Part */}
+                                                    <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRight">
+                                                        <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainer">
+                                                            <p className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainerText staatliches-regular">
+                                                                hello@figma.com
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElement">
+                                                <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainer">
+                                                    {/* Left Part */}
+                                                    <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeft">
+                                                        <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeftContainer">
+                                                            <p className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeftContainerText staatliches-regular">
+                                                                social
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                    {/* Right Part */}
+                                                    <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRight">
+                                                        <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainer">
+                                                            <p className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainerText staatliches-regular">
+                                                                @figma
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Bottom Part */}
+                            <div className="aboutRecognitionContainerBottomContainerRightContainerBottom">
+                                <div className="aboutRecognitionContainerBottomContainerRightContainerBottomContainer">
+                                    <div className="aboutRecognitionContainerBottomContainerRightContainerBottomContainerHrDiv" />
+
+                                    <div className="aboutRecognitionContainerBottomContainerRightContainerBottomContainerTextCon">
+                                        <div className="aboutRecognitionContainerBottomContainerRightContainerBottomContainerTextConText staatliches-regular">
+                                            est.2005
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+            
         </div>
     </div>
   )

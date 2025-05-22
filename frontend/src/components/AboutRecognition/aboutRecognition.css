@@ -425,3 +425,267 @@
 .aboutChessSquare-lightgray {
     background-color: #f0f0f0;
 } */
+
+
+
+.aboutRecognitionContainerBottom {
+    width: 100%;
+    height: 800px;
+}
+
+.aboutRecognitionContainerBottomContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutRecognitionContainerBottomContainerLeft {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.aboutRecognitionContainerBottomContainerLeftContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.aboutRecognitionContainerBottomContainerLeftContainerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(100%);
+}
+
+.aboutRecognitionContainerBottomContainerRight {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutRecognitionContainerBottomContainerRightContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+.aboutRecognitionContainerBottomContainerRightContainerTop {
+    position: relative
+}
+
+
+
+
+.aboutRecognitionContainerBottomContainerRightContainerTopContainerTopContainerText {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    text-transform: uppercase;
+    letter-spacing: -0.8px;
+}
+
+.aboutRecognitionContainerBottomContainerRightContainerTopContainerBottom {
+    margin-top: 40px;
+}
+
+.aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElement {
+    width: 100%;
+}
+
+.aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeft {
+    display: flex;
+    flex: 1;
+}
+
+.aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRight {
+    display: flex;
+    flex: 1.3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeftContainerText,
+.aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainerText {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutRecognitionContainerBottomContainerRightContainerBottom {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.aboutRecognitionContainerBottomContainerRightContainerBottomContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutRecognitionContainerBottomContainerRightContainerBottomContainerHrDiv {
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.aboutRecognitionContainerBottomContainerRightContainerBottomContainerTextCon {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutRecognitionContainerBottomContainerRightContainerBottomContainerTextConText {
+    color: #FFFFFF;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 120px;
+}
