@@ -1,14 +1,6 @@
 .drink {
-    /* width: 600px;
-    height: 600px; */
+    position: relative;
 }
-
-
-
-
-
-
-
 
 .drinkContainerImage {
     width: 600px;
@@ -17,7 +9,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-
+    overflow: hidden;
 }
 
 .drinkContainerImageContainer {
@@ -34,30 +26,126 @@
     height: 100%;
     object-fit: cover;
     object-position: center center;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Image Overlay */
+.drinkContainerImageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+
+/* Hover Effects */
+.drinkContainerImage:hover .drinkContainerImageOverlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.drinkContainerImage:hover .drinkContainerImageContainerImage {
+    transform: scale(1.05);
+}
+
+/* Ensure text stays on top of overlay */
+.drinkContainerName,
+.drinkContainerSize {
+    z-index: 2;
 }
 
 .drinkContainerName {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    text-align: center;
-    width: 80%;
-    max-width: 600px;
-    color: #fff;
+    top: 20px;
+    left: 20px;
+    transform: none;
     z-index: 100;
+    text-align: left;
+    width: auto;
+}
+
+.drinkContainerNameContainer {
+    /* Add styles if needed */
+}
+
+.drinkContainerNameContainerText {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 46px;
+    text-transform: uppercase;
 }
 
 .drinkContainerSize {
     position: absolute;
-    /* top: 60%; */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    text-align: center;
-    width: 80%;
-    max-width: 600px;
-    color: #fff;
+    bottom: 110px;
+    left: 20px;
+    transform: none;
     z-index: 100;
+    text-align: left;
+    width: auto;
+}
+
+.drinkContainerSizeContainer {
+    /* Add styles if needed */
+}
+
+.drinkContainerSizeContainerButton {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 55px;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    transform: scaleY(0.85);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.drinkContainerSizeContainerButtonContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drinkContainerSizeContainerButtonContainerText {
+    color: #0F0F0F;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.drinkContainerBottom {
+    margin-top: 30px;
+}
+
+.drinkContainerBottomContainerOneText {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.drinkContainerBottomContainerTwo {
+    margin-top: 15px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.drinkContainerBottomContainerTwo:hover .drinkContainerBottomContainerTwoText {
+    color: #666666;
+}
+
+.drinkContainerBottomContainerTwoText {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
 }

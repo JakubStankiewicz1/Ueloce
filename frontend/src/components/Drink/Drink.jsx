@@ -9,13 +9,15 @@ const Drink = ({ name, size, image, description }) => {
             <div className="drinkContainerImage">
                 <div className="drinkContainerImageContainer">
                     <img src={image} alt="" className='drinkContainerImageContainerImage' />
+                    {/* Add hover overlay */}
+                    <div className="drinkContainerImageOverlay"></div>
                 </div>
             </div>
 
             {/* Name */}
             <div className="drinkContainerName">
                 <div className="drinkContainerNameContainer">
-                    <p className="drinkContainerNameContainerText">
+                    <p className="drinkContainerNameContainerText staatliches-regular">
                         {name}
                     </p>
                 </div>
@@ -26,8 +28,8 @@ const Drink = ({ name, size, image, description }) => {
                 <div className="drinkContainerSizeContainer">
                     <div className="drinkContainerSizeContainerButton">
                         <div className="drinkContainerSizeContainerButtonContainer">
-                            <p className="drinkContainerSizeContainerButtonContainerText">
-                                {size}oz.
+                            <p className="drinkContainerSizeContainerButtonContainerText staatliches-regular">
+                                {size} oz.
                             </p>
                         </div>
                     </div>
@@ -37,13 +39,13 @@ const Drink = ({ name, size, image, description }) => {
             <div className="drinkContainerBottom">
                 <div className="drinkContainerBottomContainer">
                     <div className="drinkContainerBottomContainerOne">
-                        <p className="drinkContainerBottomContainerOneText">
+                        <p className="drinkContainerBottomContainerOneText staatliches-regular">
                             {description}
                         </p>
                     </div>
 
                     <div className="drinkContainerBottomContainerTwo">
-                        <p className="drinkContainerBottomContainerTwoText">
+                        <p className="drinkContainerBottomContainerTwoText staatliches-regular">
                             Find near you
                         </p>
                     </div>
