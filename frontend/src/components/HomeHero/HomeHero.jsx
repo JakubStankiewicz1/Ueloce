@@ -10,6 +10,8 @@ const HomeHero = () => {
             <div className="homeHeroContainerImage">
                 <div className="homeHeroContainerImageContainer">
                     <img src={assets.HomeHeroImg} alt="" className='homeHeroContainerImageContainerImg' />
+                    {/* Add overlay */}
+                    <div className="homeHeroContainerImageOverlay"></div>
                 </div>
             </div>
 
