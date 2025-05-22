@@ -1,0 +1,124 @@
+.homeFindStocklist {
+    width: 100%;
+    height: 670px;
+    background-color: transparent;
+}
+
+.homeFindStocklistContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.homeFindStocklistContainerLeft {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+}
+
+.homeFindStocklistContainerLeftContainer {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.homeFindStocklistContainerLeftContainerTop {
+    width: 100%;
+    height: 90%;
+    background-color: #FFFFFF;
+    /* width: 90%; */
+}
+
+.homeFindStocklistContainerLeftContainerTopContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+.homeFindStocklistContainerLeftContainerTopContainerText {
+    color: #000000;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 46px;
+}
+
+.homeFindStocklistContainerLeftContainerBottom {
+    width: 100%;
+    height: 10%;
+    background-color: #CD9D65;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.homeFindStocklistContainerLeftContainerBottom:hover {
+    background-color: #000000;
+}
+
+.homeFindStocklistContainerLeftContainerBottom:hover .homeFindStocklistContainerLeftContainerBottomContainerTextOne,
+.homeFindStocklistContainerLeftContainerBottom:hover .homeFindStocklistContainerLeftContainerBottomContainerTextTwo,
+.homeFindStocklistContainerLeftContainerBottom:hover .homeFindStocklistContainerLeftContainerBottomContainerTextTwoThree {
+    color: #FFFFFF;
+}
+
+.homeFindStocklistContainerLeftContainerBottomContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.homeFindStocklistContainerLeftContainerBottomContainerTextOne,
+.homeFindStocklistContainerLeftContainerBottomContainerTextTwo,
+.homeFindStocklistContainerLeftContainerBottomContainerTextTwoThree {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: -1.5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.homeFindStocklistContainerLeftContainerBottomContainerTextTwo {
+    padding-left: 10px;
+}
+
+.homeFindStocklistContainerLeftContainerBottomContainerTextTwoThree {
+    margin-left: -3px;
+}
+
+.homeFindStocklistContainerRight {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+}
+
+.homeFindStocklistContainerRightContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent image overflow */
+}
+
+.homeFindStocklistContainerRightContainerImage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover; /* Maintain aspect ratio while filling container */
+    object-position: center; /* Keep center of image visible */
+}

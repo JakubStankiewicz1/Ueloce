@@ -4,9 +4,12 @@ import HomePrimaveraImage from "./HomePrimaveraImage.avif";
 
 import DrinkOne from "./DrinkOne.webp";
 
+import HomeFindStocklist from "./HomeFindStocklistImage.avif";
+
 export default {
     HomeNavbarImageOne,
     HomeHeroImg,
     HomePrimaveraImage,
-    DrinkOne
+    DrinkOne,
+    HomeFindStocklist,
 };
