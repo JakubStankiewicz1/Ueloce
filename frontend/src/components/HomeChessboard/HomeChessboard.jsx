@@ -3,11 +3,21 @@ import './homeChessboard.css';
 
 const HomeChessboard = () => {
   const [squares, setSquares] = useState(0);
+  const [squareSize, setSquareSize] = useState(15);
 
   useEffect(() => {
     const calculateSquares = () => {
       const windowWidth = window.innerWidth;
-      const squaresNeeded = Math.ceil(windowWidth / 15);
+      let size = 15;
+      
+      if (windowWidth <= 480) {
+        size = 8;
+      } else if (windowWidth <= 768) {
+        size = 10;
+      }
+      
+      setSquareSize(size);
+      const squaresNeeded = Math.ceil(windowWidth / size);
       setSquares(squaresNeeded);
     };
 

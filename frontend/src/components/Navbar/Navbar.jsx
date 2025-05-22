@@ -8,11 +8,11 @@ const Navbar = () => {
         <div className="navbarContainer">
             {/* Left Part */}
             <div className="navbarContainerLeft">
-                <div className="navbarContainerLeftContainer">
+                <NavLink to="/" className="navbarContainerLeftContainer">
                     <p className="navbarContainerLeftContainerText jaro-regular">
                         Véloce
                     </p>
-                </div>
+                </NavLink>
             </div>
 
             {/* Right Part */}

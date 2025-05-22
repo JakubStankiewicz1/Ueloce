@@ -1,0 +1,27 @@
+.findUsPage {
+    width: 100%;
+}
+
+.findUsPageContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+    .findUsPageContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .findUsPageContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .findUsPageContainer {
+        width: 100%;
+    }
+}

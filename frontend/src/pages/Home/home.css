@@ -7,3 +7,21 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 1200px) {
+    .homeContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homeContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .homeContainer {
+        width: 100%;
+    }
+}

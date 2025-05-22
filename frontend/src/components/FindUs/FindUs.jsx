@@ -6,7 +6,6 @@ const FindUs = () => {
     <div className='findUs'>
         <div className="findUsContainer">
 
-
             {/* Text Container */}
             <div className="findUsContainerText">
                 <div className="findUsContainerTextContainer">
@@ -29,7 +28,6 @@ const FindUs = () => {
                     </div>
                 </div>
             </div>
-
 
         </div>
     </div>

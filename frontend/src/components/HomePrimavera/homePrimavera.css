@@ -115,3 +115,92 @@
     color: #FFFFFF;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 1200px) {
+    .homePrimaveraContainerTextContainerMiddleContainerText {
+        font-size: 120px;
+        line-height: 100px;
+    }
+    
+    .homePrimaveraContainerTextContainerBottomContainerText {
+        font-size: 26px;
+        line-height: 34px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .homePrimavera {
+        height: 600px;
+    }
+    
+    .homePrimaveraContainerTextContainerMiddleContainerText {
+        font-size: 90px;
+        line-height: 80px;
+    }
+    
+    .homePrimaveraContainerTextContainerBottomContainerText {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .homePrimaveraContainerTextContainerTopContainerButton {
+        width: 90px;
+        height: 45px;
+    }
+    
+    .homePrimaveraContainerTextContainerTopContainerButtonContainerText {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homePrimavera {
+        height: 500px;
+    }
+    
+    .homePrimaveraContainerText {
+        transform: translate(-50%, 0);
+        top: 50%;
+    }
+    
+    .homePrimaveraContainerTextContainerMiddleContainerText {
+        font-size: 70px;
+        line-height: 60px;
+    }
+    
+    .homePrimaveraContainerTextContainerBottomContainerText {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    
+    .homePrimaveraContainerTextContainerTop {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .homePrimavera {
+        height: 400px;
+    }
+    
+    .homePrimaveraContainerTextContainerMiddleContainerText {
+        font-size: 50px;
+        line-height: 44px;
+    }
+    
+    .homePrimaveraContainerTextContainerBottomContainerText {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .homePrimaveraContainerTextContainerTopContainerButton {
+        width: 70px;
+        height: 35px;
+    }
+    
+    .homePrimaveraContainerTextContainerTopContainerButtonContainerText {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

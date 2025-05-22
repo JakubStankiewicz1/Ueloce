@@ -338,3 +338,160 @@
   font-weight: 400;
   line-height: 120px;
 }
+
+@media screen and (max-width: 1200px) {
+  .aboutRecognitionContainerTopContainerRightTextContainerTwoContainerText {
+    font-size: 120px;
+    line-height: 100px;
+  }
+  
+  .aboutRecognitionContainerLeftContainerMiddleContainerElementRightContainerText {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  
+  .aboutRecognitionContainerBottomContainerRightContainerBottomContainerTextConText {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .aboutRecognitionContainerTop {
+    height: auto;
+  }
+  
+  .aboutRecognitionContainerTopContainer {
+    flex-direction: column;
+  }
+  
+  .aboutRecognitionContainerTopContainerLeft,
+  .aboutRecognitionContainerTopContainerRight {
+    height: 600px;
+  }
+  
+  .aboutRecognitionContainerTopContainerRightTextContainerTwoContainerText {
+    font-size: 90px;
+    line-height: 80px;
+  }
+  
+  .aboutRecognitionContainerBottom {
+    height: auto;
+  }
+  
+  .aboutRecognitionContainerBottomContainer {
+    flex-direction: column;
+  }
+  
+  .aboutRecognitionContainerBottomContainerLeft,
+  .aboutRecognitionContainerBottomContainerRight {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutRecognitionContainerTopContainerLeft,
+  .aboutRecognitionContainerTopContainerRight {
+    height: 500px;
+  }
+  
+  .aboutRecognitionContainerTopContainerRightTextContainerTwoContainerText {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  
+  .aboutRecognitionContainerTopContainerRightTextContainerOneContainerButton {
+    width: 140px;
+    height: 50px;
+  }
+  
+  .aboutRecognitionContainerTopContainerRightTextContainerOneContainerButtonContainerText {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  
+  .aboutRecognitionContainerLeftContainerMiddleContainerElementRightContainerText {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  
+  .aboutRecognitionContainerBottomContainerLeft,
+  .aboutRecognitionContainerBottomContainerRight {
+    height: 400px;
+  }
+  
+  .aboutRecognitionContainerBottomContainerRightContainerBottomContainerTextConText {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  
+  .aboutChessboardRow {
+    height: 12px;
+  }
+  
+  .aboutChessSquare {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .aboutRecognitionContainerTopContainerLeft,
+  .aboutRecognitionContainerTopContainerRight {
+    height: 400px;
+  }
+  
+  .aboutRecognitionContainerTopContainerLeftContainer {
+    width: 95%;
+    margin-top: 20px;
+  }
+  
+  .aboutRecognitionContainerTopContainerRightTextContainerTwoContainerText {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  
+  .aboutRecognitionContainerTopContainerRightTextContainerOneContainerButton {
+    width: 120px;
+    height: 45px;
+  }
+  
+  .aboutRecognitionContainerTopContainerRightTextContainerOneContainerButtonContainerText {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  
+  .aboutRecognitionContainerTopContainerRightText {
+    bottom: 30px;
+    left: 20px;
+  }
+  
+  .aboutRecognitionContainerLeftContainerMiddleContainerElementRightContainerText {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  
+  .aboutRecognitionContainerBottomContainerLeft,
+  .aboutRecognitionContainerBottomContainerRight {
+    height: 350px;
+  }
+  
+  .aboutRecognitionContainerBottomContainerRightContainer {
+    width: 95%;
+    margin-top: 20px;
+  }
+  
+  .aboutRecognitionContainerBottomContainerRightContainerBottomContainerTextConText {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  
+  .aboutChessboardRow {
+    height: 10px;
+  }
+  
+  .aboutChessSquare {
+    width: 10px;
+    height: 10px;
+  }
+}

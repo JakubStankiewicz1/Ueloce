@@ -136,3 +136,103 @@
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 1200px) {
+  .drink {
+    width: calc(33.333% - 20px);
+  }
+  
+  .drinkContainerImage {
+    height: 500px;
+  }
+  
+  .drinkContainerNameContainerText {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  
+  .drinkContainerSizeContainerButton {
+    width: 90px;
+    height: 50px;
+  }
+  
+  .drinkContainerSizeContainerButtonContainerText {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .drink {
+    width: calc(50% - 15px);
+  }
+  
+  .drinkContainerImage {
+    height: 450px;
+  }
+  
+  .drinkContainerBottomContainerOneText,
+  .drinkContainerBottomContainerTwoText {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .drink {
+    width: 100%;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .drinkContainerImage {
+    height: 500px;
+  }
+  
+  .drinkContainerNameContainerText {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  
+  .drinkContainerSizeContainerButton {
+    width: 80px;
+    height: 45px;
+  }
+  
+  .drinkContainerSizeContainerButtonContainerText {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .drinkContainerImage {
+    height: 400px;
+  }
+  
+  .drinkContainerNameContainerText {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  
+  .drinkContainerSizeContainerButton {
+    width: 70px;
+    height: 40px;
+  }
+  
+  .drinkContainerSizeContainerButtonContainerText {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  
+  .drinkContainerSize {
+    bottom: 80px;
+  }
+  
+  .drinkContainerBottomContainerOneText,
+  .drinkContainerBottomContainerTwoText {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

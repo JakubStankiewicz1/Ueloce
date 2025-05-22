@@ -32,3 +32,25 @@
 .chessSquare-white {
     background-color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+    .chessboardRow {
+        height: 10px;
+    }
+    
+    .chessSquare {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .chessboardRow {
+        height: 8px;
+    }
+    
+    .chessSquare {
+        width: 8px;
+        height: 8px;
+    }
+}

@@ -58,3 +58,62 @@
     text-transform: uppercase;
     letter-spacing: -0.5px;
 }
+
+@media screen and (max-width: 1200px) {
+    .homeFotterContainerLeftContainerText {
+        font-size: 180px;
+        line-height: 152px;
+        letter-spacing: -10px;
+    }
+    
+    .homeFotter {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .homeFotterContainerLeftContainerText {
+        font-size: 140px;
+        line-height: 120px;
+        letter-spacing: -8px;
+    }
+    
+    .homeFotter {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homeFotterContainerLeftContainerText {
+        font-size: 100px;
+        line-height: 90px;
+        letter-spacing: -6px;
+    }
+    
+    .homeFotter {
+        padding-top: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .homeFotterContainerRightContainerText {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .homeFotterContainerLeftContainerText {
+        font-size: 60px;
+        line-height: 60px;
+        letter-spacing: -3px;
+    }
+    
+    .homeFotter {
+        padding-top: 30px;
+    }
+    
+    .homeFotterContainerRightContainerText {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

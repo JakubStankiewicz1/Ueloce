@@ -162,3 +162,77 @@
   line-height: 17px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1200px) {
+  .findUsHeroContainerText {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .findUsHeroContainerText {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .findUsHero {
+    height: auto;
+  }
+  
+  .findUsHeroContainerImage {
+    height: 500px;
+  }
+  
+  .findUsHeroContainerText {
+    width: 90%;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin: -80px auto 30px;
+  }
+  
+  .findUsHeroContainerTextContainer {
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .findUsHeroContainerTextContainerTop {
+    margin-bottom: 30px;
+  }
+  
+  .findUsHeroContainerTextContainerBottomContainerOneContainer,
+  .findUsHeroContainerTextContainerBottomContainerTwoContainer,
+  .findUsHeroContainerTextContainerBottomContainerThreeContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .findUsHeroContainerTextContainerBottomContainerDivTwo,
+  .findUsHeroContainerTextContainerBottomContainerDivThree {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .findUsHeroContainerImage {
+    height: 400px;
+  }
+  
+  .findUsHeroContainerText {
+    width: 95%;
+    margin: -60px auto 20px;
+  }
+  
+  .findUsHeroContainerTextContainer {
+    width: 95%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .findUsHeroContainerTextContainerTop {
+    margin-bottom: 20px;
+  }
+}

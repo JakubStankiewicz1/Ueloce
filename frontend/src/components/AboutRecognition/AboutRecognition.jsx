@@ -242,8 +242,6 @@ const AboutRecognition = () => {
                                 </div>
                             </div>
 
-
-
                         </div>
                     </div>
 
@@ -297,8 +295,6 @@ const AboutRecognition = () => {
                     </div>
                 </div>
             </div>
-
-
 
             {/* Bottom Part */}
             <div className="aboutRecognitionContainerBottom">

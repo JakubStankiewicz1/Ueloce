@@ -95,3 +95,79 @@
 .homeNavbarContainerRightContainerBottomContainerRightContainer:hover .homeNavbarContainerRightContainerBottomContainerRightContainerText {
   color: #4C4C4C;
 }
+
+@media screen and (max-width: 1024px) {
+  .homeNavbarContainerDiv {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  
+  .homeNavbarContainerRightContainerTopContainerText {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  
+  .homeNavbarContainerRightContainerBottomContainerLeftContainerText,
+  .homeNavbarContainerRightContainerBottomContainerMiddleContainerText,
+  .homeNavbarContainerRightContainerBottomContainerRightContainerText {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homeNavbarContainerDiv {
+    flex-direction: column;
+    padding: 15px 20px 30px;
+    height: auto;
+  }
+  
+  .homeNavbarContainerLeft {
+    margin-bottom: 20px;
+    max-width: 200px;
+  }
+  
+  .homeNavbarContainerRightContainer {
+    padding-top: 20px;
+    width: 100%;
+  }
+  
+  .homeNavbarContainerRightContainerTopContainerText {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  
+  .homeNavbarContainerRightContainerBottomContainerLeftContainerText,
+  .homeNavbarContainerRightContainerBottomContainerMiddleContainerText,
+  .homeNavbarContainerRightContainerBottomContainerRightContainerText {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .homeNavbarContainerDiv {
+    padding: 10px 15px 20px;
+  }
+  
+  .homeNavbarContainerRightContainerTopContainerText {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .homeNavbarContainerRightContainerBottom {
+    margin-top: 10px;
+  }
+  
+  .homeNavbarContainerRightContainerBottomContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .homeNavbarContainerRightContainerBottomContainerLeftContainerText,
+  .homeNavbarContainerRightContainerBottomContainerMiddleContainerText,
+  .homeNavbarContainerRightContainerBottomContainerRightContainerText {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

@@ -53,3 +53,60 @@
   line-height: 36px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1200px) {
+  .homeAboutUsContainerTopContainerText {
+    font-size: 50px;
+    line-height: 56px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .homeAboutUs {
+    height: 450px;
+  }
+  
+  .homeAboutUsContainerTopContainerText {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  
+  .homeAboutUsContainerBottomContainerButtonContainerText {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  
+  .homeAboutUsContainerBottomContainerButton {
+    width: 130px;
+    height: 55px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homeAboutUs {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  
+  .homeAboutUsContainerTopContainerText {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .homeAboutUsContainerTopContainerText {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  
+  .homeAboutUsContainerBottomContainerButton {
+    width: 120px;
+    height: 50px;
+  }
+  
+  .homeAboutUsContainerBottomContainerButtonContainerText {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
