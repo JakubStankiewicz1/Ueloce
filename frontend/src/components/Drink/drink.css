@@ -150,6 +150,10 @@
     font-size: 36px;
     line-height: 40px;
   }
+
+  .drinkContainerSize {
+    bottom: 140px;
+  }
   
   .drinkContainerSizeContainerButton {
     width: 90px;
@@ -227,7 +231,7 @@
   }
   
   .drinkContainerSize {
-    bottom: 80px;
+    bottom: 130px;
   }
   
   .drinkContainerBottomContainerOneText,

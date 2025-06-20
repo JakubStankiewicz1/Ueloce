@@ -43,3 +43,8 @@ a {
   font-weight: 500;
   font-style: normal;
 }
+
+NavLink {
+  text-decoration: none;
+  color: inherit;
+}

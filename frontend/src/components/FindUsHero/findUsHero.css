@@ -190,7 +190,7 @@
     top: auto;
     left: auto;
     transform: none;
-    margin: -80px auto 30px;
+    margin: -470px auto 30px;
   }
   
   .findUsHeroContainerTextContainer {
@@ -218,12 +218,12 @@
 
 @media screen and (max-width: 480px) {
   .findUsHeroContainerImage {
-    height: 400px;
+    height: 500px;
   }
   
   .findUsHeroContainerText {
     width: 95%;
-    margin: -60px auto 20px;
+    margin: -450px auto 20px;
   }
   
   .findUsHeroContainerTextContainer {

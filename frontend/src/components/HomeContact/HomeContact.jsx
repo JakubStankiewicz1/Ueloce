@@ -1,5 +1,6 @@
 import React from 'react';
 import "./homeContact.css";
+import { NavLink } from 'react-router-dom';
 
 const HomeContact = () => {
   return (
@@ -10,20 +11,20 @@ const HomeContact = () => {
                 <div className="homeContactContainerLeftContainer">
                     {/* Top Part */}
                     <div className="homeContactContainerLeftContainerTop">
-                        <div className="homeContactContainerLeftContainerTopContainer">
+                        <NavLink to='/find-us' className="homeContactContainerLeftContainerTopContainer">
                             <p className="homeContactContainerLeftContainerTopContainerText jaro-regular">
                                 Find Stocklist
                             </p>
-                        </div>
+                        </NavLink>
                     </div>
 
                     {/* Bottom Part */}
                     <div className="homeContactContainerLeftContainerBottom">
-                        <div className="homeContactContainerLeftContainerBottomContainer">
+                        <NavLink to='/about' className="homeContactContainerLeftContainerBottomContainer">
                             <p className="homeContactContainerLeftContainerBottomContainerText jaro-regular">
                                 About
                             </p>
-                        </div>
+                        </NavLink>
                     </div>
                 </div>
             </div>
@@ -35,7 +36,7 @@ const HomeContact = () => {
                     <div className="homeContactContainerRightContainerTop">
                         <div className="homeContactContainerRightContainerTopContainer">
                             <p className="homeContactContainerRightContainerTopContainerText jaro-regular">
-                                (646) 555-4567
+                                (123) 456-7890
                             </p>
                         </div>
                     </div>
@@ -44,7 +45,7 @@ const HomeContact = () => {
                     <div className="homeContactContainerRightContainerBottom">
                         <div className="homeContactContainerRightContainerBottomContainer">
                             <p className="homeContactContainerRightContainerBottomContainerText jaro-regular">
-                                Hello@Figma.com
+                                contact@ueloce.com
                             </p>
                         </div>
                     </div>

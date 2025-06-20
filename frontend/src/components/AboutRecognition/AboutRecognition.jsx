@@ -321,6 +321,9 @@ const AboutRecognition = () => {
                                         </div>
                                     </div>
 
+
+                                    
+
                                     <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottom">
                                         <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainer">
 
@@ -339,7 +342,7 @@ const AboutRecognition = () => {
                                                     <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRight">
                                                         <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainer">
                                                             <p className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainerText staatliches-regular">
-                                                                415-555-4567
+                                                                (123)-456-7890
                                                             </p>
                                                         </div>
                                                     </div>
@@ -361,7 +364,7 @@ const AboutRecognition = () => {
                                                     <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRight">
                                                         <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainer">
                                                             <p className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainerText staatliches-regular">
-                                                                hello@figma.com
+                                                                contact@ueloce.com
                                                             </p>
                                                         </div>
                                                     </div>
@@ -383,7 +386,7 @@ const AboutRecognition = () => {
                                                     <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRight">
                                                         <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainer">
                                                             <p className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerRightContainerText staatliches-regular">
-                                                                @figma
+                                                                @ueloce
                                                             </p>
                                                         </div>
                                                     </div>

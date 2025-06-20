@@ -1,0 +1,255 @@
+.contactForm {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+
+.contactFormContainer {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+/* Left Side - Contact Info */
+.contactFormContainerLeft {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.contactFormContainerLeftContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contactFormContainerLeftContainerTitleText {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 54px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+.contactFormContainerLeftContainerInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contactFormContainerLeftContainerInfoItem {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contactFormContainerLeftContainerInfoItemLabel {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.contactFormContainerLeftContainerInfoItemValue {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+/* Right Side - Form */
+.contactFormContainerRight {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.contactFormContainerRightContainer {
+    width: 100%;
+}
+
+.contactFormContainerRightContainerForm {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contactFormContainerRightContainerFormGroup {
+    width: 100%;
+}
+
+.contactFormContainerRightContainerFormInput,
+.contactFormContainerRightContainerFormTextarea {
+    width: 100%;
+    padding: 20px 25px;
+    border: 2px solid #e5e5e5;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+.contactFormContainerRightContainerFormInput:focus,
+.contactFormContainerRightContainerFormTextarea:focus {
+    border-color: #CD9D65;
+    background-color: #fafafa;
+}
+
+.contactFormContainerRightContainerFormInput::placeholder,
+.contactFormContainerRightContainerFormTextarea::placeholder {
+    color: #999999;
+}
+
+.contactFormContainerRightContainerFormTextarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contactFormContainerRightContainerFormButton {
+    background-color: #0F0F0F;
+    border: 2px solid #0F0F0F;
+    width: 180px;
+    height: 65px;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    transform: scaleY(0.85);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.contactFormContainerRightContainerFormButton:hover {
+    background-color: #CD9D65;
+    border-color: #CD9D65;
+}
+
+.contactFormContainerRightContainerFormButton:hover .contactFormContainerRightContainerFormButtonText {
+    color: #0F0F0F;
+}
+
+.contactFormContainerRightContainerFormButtonText {
+    color: #CD9D65;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    transition: all 0.3s ease-in-out;
+    transform: scaleY(1.18);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .contactFormContainerLeftContainerTitleText {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    
+    .contactFormContainerLeftContainerInfoItemValue {
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .contactForm {
+        padding: 60px 0;
+    }
+    
+    .contactFormContainer {
+        gap: 40px;
+    }
+    
+    .contactFormContainerLeftContainerTitleText {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    
+    .contactFormContainerLeftContainerInfoItemValue {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contactForm {
+        padding: 50px 0;
+    }
+    
+    .contactFormContainer {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .contactFormContainerLeftContainer {
+        gap: 30px;
+    }
+    
+    .contactFormContainerLeftContainerTitleText {
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+    }
+    
+    .contactFormContainerLeftContainerInfo {
+        gap: 25px;
+    }
+    
+    .contactFormContainerLeftContainerInfoItem {
+        text-align: center;
+    }
+    
+    .contactFormContainerRightContainerFormButton {
+        align-self: center;
+        width: 160px;
+        height: 60px;
+    }
+    
+    .contactFormContainerRightContainerFormButtonText {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contactForm {
+        padding: 40px 0;
+    }
+    
+    .contactFormContainerLeftContainerTitleText {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    
+    .contactFormContainerLeftContainerInfoItemValue {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .contactFormContainerRightContainerFormInput,
+    .contactFormContainerRightContainerFormTextarea {
+        padding: 18px 20px;
+        font-size: 15px;
+    }
+    
+    .contactFormContainerRightContainerFormButton {
+        width: 140px;
+        height: 55px;
+    }
+    
+    .contactFormContainerRightContainerFormButtonText {
+        font-size: 15px;
+    }
+}

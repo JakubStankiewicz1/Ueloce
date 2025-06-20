@@ -52,11 +52,11 @@ const FindUsHero = () => {
                                             </p>
 
                                             <p className="findUsHeroContainerTextContainerBottomContainerOneContainerRightContainerTextTwo">
-                                                hello@figma.com
+                                                contact@ueloce.com
                                             </p>
 
                                             <p className="findUsHeroContainerTextContainerBottomContainerOneContainerRightContainerTextThree">
-                                                415-123-4567
+                                                (123)-456-7890
                                             </p>
                                         </div>
                                     </div>
@@ -84,7 +84,7 @@ const FindUsHero = () => {
                                             </p>
 
                                             <p className="findUsHeroContainerTextContainerBottomContainerTwoContainerRightContainerTextTwo">
-                                                hello@figma.com
+                                                contact@ueloce.com
                                             </p>
                                         </div>
                                     </div>
@@ -112,7 +112,7 @@ const FindUsHero = () => {
                                             </p>
 
                                             <p className="findUsHeroContainerTextContainerBottomContainerThreeContainerRightContainerTextTwo">
-                                                Hello@figma.com
+                                                contact@ueloce.com
                                             </p>
                                         </div>
                                     </div>

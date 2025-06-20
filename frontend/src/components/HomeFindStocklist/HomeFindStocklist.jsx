@@ -1,6 +1,7 @@
 import React from 'react';
 import "./homeFindStocklist.css";
 import assets from '../../assets/assets';
+import { NavLink } from 'react-router-dom';
 
 const HomeFindStocklist = () => {
   return (
@@ -20,7 +21,7 @@ const HomeFindStocklist = () => {
 
                     {/* Bottom Part */}
                     <div className="homeFindStocklistContainerLeftContainerBottom">
-                        <div className="homeFindStocklistContainerLeftContainerBottomContainer">
+                        <NavLink to='/find-us' className="homeFindStocklistContainerLeftContainerBottomContainer">
                             <p className="homeFindStocklistContainerLeftContainerBottomContainerTextOne jaro-regular">
                                 Find Stocklist
                             </p>
@@ -32,7 +33,7 @@ const HomeFindStocklist = () => {
                             <div className="homeFindStocklistContainerLeftContainerBottomContainerTextTwoThree jaro-regular">
                                 >
                             </div>
-                        </div>
+                        </NavLink>
                     </div>
                 </div>
             </div>

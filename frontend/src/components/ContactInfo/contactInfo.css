@@ -1,0 +1,207 @@
+.contactInfo {
+    width: 100%;
+    background-color: #CD9D65;
+    padding: 60px 0;
+}
+
+.contactInfoContainer {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+/* Left Side - Business Hours */
+.contactInfoContainerLeft {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.contactInfoContainerLeftContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contactInfoContainerLeftContainerTitleText {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    letter-spacing: -1.5px;
+}
+
+.contactInfoContainerLeftContainerDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactInfoContainerLeftContainerDetailsItem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contactInfoContainerLeftContainerDetailsItemDay {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.contactInfoContainerLeftContainerDetailsItemTime {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+/* Right Side - Social Media */
+.contactInfoContainerRight {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.contactInfoContainerRightContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contactInfoContainerRightContainerTitleText {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    letter-spacing: -1.5px;
+}
+
+.contactInfoContainerRightContainerSocial {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contactInfoContainerRightContainerSocialItem {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactInfoContainerRightContainerSocialItem:hover .contactInfoContainerRightContainerSocialItemText {
+    color: #ffffff;
+    transform: translateX(10px);
+}
+
+.contactInfoContainerRightContainerSocialItemText {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .contactInfoContainerLeftContainerTitleText,
+    .contactInfoContainerRightContainerTitleText {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    
+    .contactInfoContainerLeftContainerDetailsItemTime,
+    .contactInfoContainerRightContainerSocialItemText {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .contactInfo {
+        padding: 50px 0;
+    }
+    
+    .contactInfoContainer {
+        gap: 40px;
+    }
+    
+    .contactInfoContainerLeftContainerTitleText,
+    .contactInfoContainerRightContainerTitleText {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    
+    .contactInfoContainerLeftContainerDetailsItemTime,
+    .contactInfoContainerRightContainerSocialItemText {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contactInfo {
+        padding: 40px 0;
+    }
+    
+    .contactInfoContainer {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .contactInfoContainerLeftContainer,
+    .contactInfoContainerRightContainer {
+        gap: 25px;
+    }
+    
+    .contactInfoContainerLeftContainerTitleText,
+    .contactInfoContainerRightContainerTitleText {
+        font-size: 26px;
+        line-height: 32px;
+        text-align: center;
+    }
+    
+    .contactInfoContainerLeftContainerDetails,
+    .contactInfoContainerRightContainerSocial {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .contactInfoContainerLeftContainerDetailsItem {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contactInfo {
+        padding: 30px 0;
+    }
+    
+    .contactInfoContainerLeftContainerTitleText,
+    .contactInfoContainerRightContainerTitleText {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .contactInfoContainerLeftContainerDetailsItemTime,
+    .contactInfoContainerRightContainerSocialItemText {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .contactInfoContainerLeftContainerDetailsItemDay {
+        font-size: 13px;
+    }
+}

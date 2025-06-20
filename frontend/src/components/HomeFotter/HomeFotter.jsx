@@ -19,7 +19,7 @@ const HomeFotter = () => {
             <div className="homeFotterContainerRight">
                 <div className="homeFotterContainerRightContainer">
                     <p className="homeFotterContainerRightContainerText geist-regular">
-                        company name© 2025 All Rights Reserved
+                        ueloce© 2025 All Rights Reserved
                     </p>
                 </div>
             </div>

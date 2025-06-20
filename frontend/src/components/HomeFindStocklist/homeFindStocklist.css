@@ -71,6 +71,7 @@
     padding-left: 25px;
     display: flex;
     align-items: center;
+    background-color: ;
 }
 
 .homeFindStocklistContainerLeftContainerBottomContainerTextOne,
@@ -168,6 +169,10 @@
     .homeFindStocklistContainerRight {
         height: 350px;
     }
+
+    .homeFindStocklistContainerLeftContainerTop {
+        padding-bottom: 20px;
+    }
     
     .homeFindStocklistContainerLeftContainerTopContainerText {
         font-size: 28px;
@@ -176,6 +181,10 @@
     
     .homeFindStocklistContainerBottomContainer {
         padding-left: 15px;
+    }
+
+    .homeFindStocklistContainerLeftContainerBottomContainer {
+        height: 60px;
     }
     
     .homeFindStocklistContainerLeftContainerBottomContainerTextOne,

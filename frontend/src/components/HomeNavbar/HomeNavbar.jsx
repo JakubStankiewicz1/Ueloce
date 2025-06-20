@@ -58,7 +58,7 @@ const HomeNavbar = () => {
 
                                 {/* Right Part */}
                                 <div className="homeNavbarContainerRightContainerBottomContainerRight">
-                                    <NavLink to="/" className="homeNavbarContainerRightContainerBottomContainerRightContainer">
+                                    <NavLink to="/contact" className="homeNavbarContainerRightContainerBottomContainerRightContainer">
                                         <p className="homeNavbarContainerRightContainerBottomContainerRightContainerText jaro-regular">
                                             Contact
                                         </p>
