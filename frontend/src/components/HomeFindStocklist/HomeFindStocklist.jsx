@@ -24,14 +24,12 @@ const HomeFindStocklist = () => {
                         <NavLink to='/find-us' className="homeFindStocklistContainerLeftContainerBottomContainer">
                             <p className="homeFindStocklistContainerLeftContainerBottomContainerTextOne jaro-regular">
                                 Find Stocklist
-                            </p>
-
-                            <p className="homeFindStocklistContainerLeftContainerBottomContainerTextTwo jaro-regular">
+                            </p>                            <p className="homeFindStocklistContainerLeftContainerBottomContainerTextTwo jaro-regular">
                                 -
                             </p>
 
                             <div className="homeFindStocklistContainerLeftContainerBottomContainerTextTwoThree jaro-regular">
-                                >
+                                →
                             </div>
                         </NavLink>
                     </div>
