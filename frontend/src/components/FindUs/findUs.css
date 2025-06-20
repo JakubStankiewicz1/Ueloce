@@ -33,7 +33,6 @@
 }
 
 
-/* Responsivity for different screen sizes */
 @media screen and (max-width: 1200px) {
   .findUsContainerText {
     width: 60%;

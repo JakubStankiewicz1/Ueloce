@@ -405,7 +405,6 @@
   }
 
   .aboutRecognitionContainerBottomContainerRight {
-    /* background-color: red; */
     height: 820px;
     padding-bottom: 200px;
   }
@@ -638,7 +637,6 @@
   }
 }
 
-/* Extra small mobile devices */
 @media screen and (max-width: 360px) {
   .aboutRecognitionContainerTopContainerLeft,
   .aboutRecognitionContainerTopContainerRight {

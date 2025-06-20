@@ -19,11 +19,6 @@ a {
   text-decoration: none;
 }
 
-::selection {
-  /* background-color: black;
-  color: #EFE7D2; */
-}
-
 .staatliches-regular {
   font-family: "Staatliches", sans-serif;
   font-weight: 400;

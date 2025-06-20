@@ -13,7 +13,6 @@
     gap: 60px;
 }
 
-/* Left Side - Business Hours */
 .contactInfoContainerLeft {
     flex: 1;
     display: flex;
@@ -65,7 +64,6 @@
     letter-spacing: -1px;
 }
 
-/* Right Side - Social Media */
 .contactInfoContainerRight {
     flex: 1;
     display: flex;
@@ -114,7 +112,6 @@
     transition: all 0.3s ease-in-out;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 1200px) {
     .contactInfoContainerLeftContainerTitleText,
     .contactInfoContainerRightContainerTitleText {

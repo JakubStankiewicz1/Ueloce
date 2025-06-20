@@ -20,11 +20,15 @@ const HomeAboutUs = () => {
         <div className="homeAboutUsContainerBottom">
           <div className="homeAboutUsContainerBottomContainer">
             {" "}
-            <NavLink style={({ isActive }) => ({
-                  textDecoration: "none",
-                  color: "inherit",
-                  display: "block",
-                })} to="/about" className="homeAboutUsContainerBottomContainerButton">
+            <NavLink
+              style={({ isActive }) => ({
+                textDecoration: "none",
+                color: "inherit",
+                display: "block",
+              })}
+              to="/about"
+              className="homeAboutUsContainerBottomContainerButton"
+            >
               <div className="homeAboutUsContainerBottomContainerButtonContainer">
                 <p className="homeAboutUsContainerBottomContainerButtonContainerText jaro-regular">About Us</p>
               </div>

@@ -9,7 +9,7 @@ const Drink = ({ name, size, image, description }) => {
             <div className="drinkContainerImage">
                 <div className="drinkContainerImageContainer">
                     <img src={image} alt="" className='drinkContainerImageContainerImage' />
-                    {/* Add hover overlay */}
+                    {/* Hover overlay */}
                     <div className="drinkContainerImageOverlay"></div>
                 </div>
             </div>
