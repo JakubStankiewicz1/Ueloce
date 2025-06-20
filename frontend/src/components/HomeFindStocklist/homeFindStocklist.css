@@ -213,6 +213,10 @@
         width: 95%;
         padding-top: 15px;
     }
+
+    .homeFindStocklistContainerLeftContainerBottomContainer {
+        height: 60px;
+    }
     
     .homeFindStocklistContainerLeftContainerBottomContainerTextOne,
     .homeFindStocklistContainerLeftContainerBottomContainerTextTwo,
