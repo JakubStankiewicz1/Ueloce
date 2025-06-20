@@ -163,7 +163,8 @@
     }
     
     .homeFindStocklistContainerLeft {
-        height: 300px;
+        height: auto;
+        min-height: 380px;
     }
     
     .homeFindStocklistContainerRight {
@@ -172,6 +173,19 @@
 
     .homeFindStocklistContainerLeftContainerTop {
         padding-bottom: 20px;
+        height: auto;
+        min-height: 300px;
+    }
+    
+    .homeFindStocklistContainerLeftContainerBottom {
+        height: 80px !important;
+        min-height: 80px !important;
+        flex-shrink: 0;
+    }
+
+    .homeFindStocklistContainerLeftContainerBottomContainer {
+        height: 80px !important;
+        min-height: 80px !important;
     }
     
     .homeFindStocklistContainerLeftContainerTopContainerText {
@@ -196,12 +210,40 @@
 }
 
 @media screen and (max-width: 480px) {
+    .homeFindStocklist {
+        height: auto;
+        min-height: 400px;
+    }
+    
+    .homeFindStocklistContainer {
+        flex-direction: column;
+        height: auto;
+        min-height: 400px;
+    }
+    
     .homeFindStocklistContainerLeft {
-        height: 350px;
+        height: auto;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
     }
     
     .homeFindStocklistContainerRight {
         height: 300px;
+        flex-shrink: 0;
+    }
+    
+    .homeFindStocklistContainerLeftContainer {
+        height: auto;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .homeFindStocklistContainerLeftContainerTop {
+        flex: 1;
+        height: auto;
+        min-height: 320px;
     }
     
     .homeFindStocklistContainerLeftContainerTopContainerText {
@@ -215,13 +257,18 @@
     }
 
     .homeFindStocklistContainerLeftContainerBottom {
-        height: 60px !important;
-        min-height: 60px;
+        height: 80px !important;
+        min-height: 80px !important;
+        flex-shrink: 0;
+        position: relative;
     }
 
     .homeFindStocklistContainerLeftContainerBottomContainer {
-        height: 100%;
-        min-height: 60px;
+        height: 80px !important;
+        min-height: 80px !important;
+        display: flex;
+        align-items: center;
+        padding-left: 25px;
     }
     
     .homeFindStocklistContainerLeftContainerBottomContainerTextOne,
