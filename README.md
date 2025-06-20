@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**🌐 [Zobacz Live Demo](https://ueloce.onrender.com) | 💻 [GitHub Repository](https://github.com/JakubStankiewicz1/Ueloce)**
+**🌐 [View Live Demo](https://ueloce.onrender.com) | 💻 [GitHub Repository](https://github.com/JakubStankiewicz1/Ueloce)**
 
 </div>
 
@@ -11,22 +11,22 @@
 ![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=for-the-badge&logo=react)  
 ![Vite](https://img.shields.io/badge/Vite-6.3.5-646CFF?style=for-the-badge&logo=vite)
 
-**Uéloce** to elegancka strona internetowa prezentująca nową erę aperitifu - gdzie smak i funkcjonalność spotykają się w pięknie wykonanym, bezalkoholowym napoju.
+**Uéloce** is an elegant website showcasing the new era of aperitif - where taste and functionality meet in a beautifully crafted, alcohol-free beverage.
 
-## ✨ O Projekcie
+## ✨ About the Project
 
-Uéloce to więcej niż strona internetowa - to cyfrowe doświadczenie premium brand'u aperitif. Projekt łączy w sobie nowoczesny design z funkcjonalnością, oferując użytkownikom immersyjne poznanie marki Véloce.
+Uéloce is more than just a website - it's a digital experience for a premium aperitif brand. The project combines modern design with functionality, offering users an immersive journey into the Véloce brand.
 
-### 🎯 Główne Cechy
-- **🎨 Elegancki Design** - Minimalistyczny, luksusowy interfejs
-- **📱 Fully Responsive** - Doskonałe działanie na wszystkich urządzeniach  
-- **⚡ Lightning Fast** - Zoptymalizowane dla maksymalnej wydajności
-- **🎭 Smooth Animations** - Płynne przejścia i hover efekty
-- **🍸 Brand Experience** - Immersyjne prezentowanie produktu
+### 🎯 Key Features
+- **🎨 Elegant Design** - Minimalist, luxury interface
+- **📱 Fully Responsive** - Perfect performance on all devices  
+- **⚡ Lightning Fast** - Optimized for maximum performance
+- **🎭 Smooth Animations** - Fluid transitions and hover effects
+- **🍸 Brand Experience** - Immersive product presentation
 
 ---
 
-## 🏗️ Architektura Projektu
+## 🏗️ Project Architecture
 
 ```
 ┌─────────────────────────────────────────┐
@@ -50,9 +50,9 @@ Uéloce to więcej niż strona internetowa - to cyfrowe doświadczenie premium b
 
 ---
 
-## 🛠️ Stack Technologiczny
+## 🛠️ Technology Stack
 
-| Kategoria | Technologia | Wersja | Zastosowanie |
+| Category | Technology | Version | Application |
 |-----------|-------------|---------|--------------|
 | **🔧 Framework** | React | 19.1.0 | UI Library |
 | **⚡ Build Tool** | Vite | 6.3.5 | Development & Build |
@@ -64,59 +64,59 @@ Uéloce to więcej niż strona internetowa - to cyfrowe doświadczenie premium b
 
 ---
 
-## 🚀 Szybki Start
+## 🚀 Quick Start
 
-### Wymagania
-- **Node.js** 18+ (zalecane 20+)
-- **npm** lub **yarn**
+### Requirements
+- **Node.js** 18+ (recommended 20+)
+- **npm** or **yarn**
 - **Git**
 
-### Instalacja
+### Installation
 
 ```bash
-# Sklonuj repozytorium
+# Clone the repository
 git clone https://github.com/JakubStankiewicz1/Ueloce
 cd Ueloce
 
-# Przejdź do katalogu frontend
+# Navigate to frontend directory
 cd frontend
 
-# Zainstaluj zależności
+# Install dependencies
 npm install
 
-# Uruchom serwer deweloperski
+# Start development server
 npm run dev
 
-# 🎉 Aplikacja dostępna na http://localhost:4011
+# 🎉 Application available at http://localhost:4011
 ```
 
-### Dostępne Skrypty
+### Available Scripts
 
 ```bash
-# Rozwój
-npm run dev          # Uruchom dev server (port 4011)
+# Development
+npm run dev          # Start dev server (port 4011)
 
-# Produkcja  
-npm run build        # Zbuduj dla produkcji
-npm run preview      # Podgląd build'a produkcyjnego
+# Production  
+npm run build        # Build for production
+npm run preview      # Preview production build
 
-# Jakość kodu
-npm run lint         # Sprawdź kod ESLint
+# Code Quality
+npm run lint         # Run ESLint check
 ```
 
 ---
 
-## 📂 Struktura Projektu
+## 📂 Project Structure
 
 ```
 veloce/
-├── 📄 README.md                    # Dokumentacja projektu
-├── 📄 LICENSE                      # Licencja MIT
-├── 📄 DEPLOYMENT.md               # Instrukcje deployment
-├── 📄 CONTRIBUTING.md             # Przewodnik dla kontrybutorów
+├── 📄 README.md                    # Project documentation
+├── 📄 LICENSE                      # MIT License
+├── 📄 DEPLOYMENT.md               # Deployment instructions
+├── 📄 CONTRIBUTING.md             # Contributor guidelines
 │
 └── 🌐 frontend/                   # React Application
-    ├── 🐳 Dockerfile              # Docker dla produkcji
+    ├── 🐳 Dockerfile              # Docker for production
     ├── 📋 package.json            # Dependencies & scripts
     ├── ⚙️ vite.config.js          # Vite configuration
     ├── 📋 eslint.config.js        # ESLint rules
@@ -159,19 +159,19 @@ veloce/
 
 ## 🎨 Design System
 
-### 🎨 Paleta Kolorów
+### 🎨 Color Palette
 ```css
 /* Primary Colors */
---primary-black: #000000     /* Główny tekst, navbar */
---primary-white: #FFFFFF     /* Tło, teksty kontrastowe */
---accent-gold: #CD9D65       /* Akcenty, hover states */
+--primary-black: #000000     /* Main text, navbar */
+--primary-white: #FFFFFF     /* Background, contrast text */
+--accent-gold: #CD9D65       /* Accents, hover states */
 
 /* Additional */
 --light-gray: #f5f5f5        /* Subtle backgrounds */
 --dark-gray: #4c4c4c         /* Secondary text */
 ```
 
-### 🔤 Typografia
+### 🔤 Typography
 ```css
 /* Brand Fonts */
 .jaro-regular     /* Logo, headings - Distinctive brand font */
@@ -191,78 +191,78 @@ veloce/
 
 ---
 
-## 🎭 Komponenty & Funkcjonalności
+## 🎭 Components & Features
 
 ### 🏠 **Homepage**
-- **Hero Section** - Immersyjny główny baner z CTA
-- **Product Showcase** - Elegancka prezentacja napojów
-- **About Preview** - Wprowadzenie do marki
-- **Contact Section** - Informacje kontaktowe
+- **Hero Section** - Immersive main banner with CTA
+- **Product Showcase** - Elegant beverage presentation
+- **About Preview** - Brand introduction
+- **Contact Section** - Contact information
 
 ### ℹ️ **About Page**  
-- **Brand Story** - Historia i misja Véloce
-- **Recognition Section** - Nagrody i osiągnięcia
-- **Interactive Elements** - Chessboard pattern, animacje
+- **Brand Story** - Véloce history and mission
+- **Recognition Section** - Awards and achievements
+- **Interactive Elements** - Chessboard pattern, animations
 
 ### 📧 **Contact Page**
-- **Contact Form** - Zaawansowany formularz z walidacją
-- **Business Info** - Godziny, lokalizacja, social media
-- **Responsive Layout** - Idealne na wszystkich urządzeniach
+- **Contact Form** - Advanced form with validation
+- **Business Info** - Hours, location, social media
+- **Responsive Layout** - Perfect on all devices
 
 ### 📍 **Find Us Page**
-- **Location Finder** - Gdzie znaleźć Véloce
-- **Stocklist** - Lista punktów sprzedaży
-- **Interactive Map** - (planowane)
+- **Location Finder** - Where to find Véloce
+- **Stocklist** - List of retail locations
+- **Interactive Map** - (planned)
 
 ### 🧭 **Navigation**
-- **Desktop Menu** - Eleganckie menu z hover effects
-- **Mobile Menu** - Full-screen overlay z animacjami
-- **Smooth Scrolling** - Auto scroll-to-top na każdej stronie
+- **Desktop Menu** - Elegant menu with hover effects
+- **Mobile Menu** - Full-screen overlay with animations
+- **Smooth Scrolling** - Auto scroll-to-top on each page
 
 ---
 
 ## 🚀 Deployment
 
-### 🌐 Vercel (Zalecane)
+### 🌐 Vercel (Recommended)
 ```bash
-# Zainstaluj Vercel CLI
+# Install Vercel CLI
 npm i -g vercel
 
 # Deploy  
 cd frontend
 vercel
 
-# Production URL będzie gotowy w 30 sekund! 🎉
+# Production URL ready in 30 seconds! 🎉
 ```
 
 ### 🐳 Docker
 ```bash
-# Zbuduj obraz
+# Build image
 docker build -t veloce-frontend ./frontend
 
-# Uruchom kontener
+# Run container
 docker run -p 4011:4011 veloce-frontend
 ```
 
 ### 📦 Static Hosting
 ```bash
-# Zbuduj dla produkcji
+# Build for production
 cd frontend
 npm run build
 
-# Deploy folder 'dist' na:
+# Deploy 'dist' folder to:
 # - Netlify, Vercel, GitHub Pages
 # - AWS S3, Azure Static Web Apps
-# - Render, Railway, itp.
+# - Render, Railway, etc.
 ```
 
-Szczegółowe instrukcje w [`DEPLOYMENT.md`](DEPLOYMENT.md)
+Detailed instructions in [`DEPLOYMENT.md`](DEPLOYMENT.md)
 
 ---
 
 ## ⚡ Performance
 
-### 🎯 Optymalizacje
+### 🎯 Optimizations
 - **⚡ Vite HMR** - Instant development feedback
 - **🖼️ Image Optimization** - WebP/AVIF formats
 - **📦 Code Splitting** - Automatic route-based splitting  
@@ -270,18 +270,18 @@ Szczegółowe instrukcje w [`DEPLOYMENT.md`](DEPLOYMENT.md)
 - **🚀 Lazy Loading** - Images and components
 - **♻️ Tree Shaking** - Unused code elimination
 
-### 📊 Metryki (Target)
+### 📊 Metrics (Target)
 - **First Contentful Paint**: < 1.2s
 - **Largest Contentful Paint**: < 2.5s  
 - **Cumulative Layout Shift**: < 0.1
 - **Time to Interactive**: < 3.0s
-- **Lighthouse Score**: 95+ 
+- **Lighthouse Score**: 95+
 
 ---
 
-## 🔧 Rozwój
+## 🔧 Development
 
-### 🛠️ Lokalne środowisko
+### 🛠️ Local Environment
 ```bash
 # Hot reload development
 npm run dev
@@ -293,22 +293,22 @@ npm run build && npm run preview
 npm run lint
 ```
 
-### 📋 Konwencje Kodu
-- **ESLint** - Automatyczne sprawdzanie jakości
-- **Prettier** - Formatowanie kodu (planowane)
-- **Naming**: camelCase dla JS, kebab-case dla CSS
-- **Components**: PascalCase folders i pliki
+### 📋 Code Conventions
+- **ESLint** - Automatic quality checking
+- **Prettier** - Code formatting (planned)
+- **Naming**: camelCase for JS, kebab-case for CSS
+- **Components**: PascalCase folders and files
 
 ### 🎯 Roadmap
 
-#### v1.1 (Planowane)
-- [ ] **🌐 Internationalization** (i18n) - Obsługa wielojęzyczności
-- [ ] **🗺️ Interactive Map** - Mapa punktów sprzedaży
-- [ ] **📧 Email Integration** - Funkcjonalny contact form
+#### v1.1 (Planned)
+- [ ] **🌐 Internationalization** (i18n) - Multi-language support
+- [ ] **🗺️ Interactive Map** - Retail location map
+- [ ] **📧 Email Integration** - Functional contact form
 - [ ] **🎭 Advanced Animations** - Framer Motion
 - [ ] **🔍 SEO Optimization** - Meta tags, structured data
 
-#### v1.2 (Przyszłość)  
+#### v1.2 (Future)  
 - [ ] **🛒 E-commerce Integration** - Online store
 - [ ] **👤 User Accounts** - Personalization
 - [ ] **📱 PWA** - Progressive Web App
@@ -317,34 +317,34 @@ npm run lint
 
 ---
 
-### 🐛 Zgłaszanie Bugów
-- **GitHub Issues** - szczegółowy opis problemu
-- **Screenshots** - jeśli dotyczy UI
-- **Browser info** - wersja, urządzenie
-- **Steps to reproduce** - jak odtworzyć problem
+### 🐛 Bug Reports
+- **GitHub Issues** - Detailed problem description
+- **Screenshots** - If UI related
+- **Browser info** - Version, device
+- **Steps to reproduce** - How to recreate the issue
 
 ---
 
-## 📞 Wsparcie & Kontakt
+## 📞 Support & Contact
 
-### 💬 Kanały Komunikacji
-- **🐛 Issues**: [GitHub Issues](https://github.com/akubStankiewicz1/Ueloce/issues)
-- **💡 Discussions**: [GitHub Discussions](https://github.com/akubStankiewicz1/Ueloce/discussions)
-- **📧 Email**: stankiewicz.kuba152@gmail.com (example)
+### 💬 Communication Channels
+- **🐛 Issues**: [GitHub Issues](https://github.com/JakubStankiewicz1/Ueloce/issues)
+- **💡 Discussions**: [GitHub Discussions](https://github.com/JakubStankiewicz1/Ueloce/discussions)
+- **📧 Email**: stankiewicz.kuba152@gmail.com
 
-### 📚 Dokumentacja
-- **📖 User Guide**: Dokumentacja użytkownika (planowana)
-- **🔧 API Docs**: Dokumentacja techniczna (gdy będzie backend)
-- **🎨 Style Guide**: Przewodnik designu (planowany)
+### 📚 Documentation
+- **📖 User Guide**: User documentation (planned)
+- **🔧 API Docs**: Technical documentation (when backend added)
+- **🎨 Style Guide**: Design guidelines (planned)
 
 ---
 
-## 📄 Licencja
+## 📄 License
 
-Projekt dostępny na **licencji MIT** - zobacz plik [`LICENSE`](LICENSE) po szczegóły.
+This project is available under the **MIT License** - see the [`LICENSE`](LICENSE) file for details.
 
 ```
-MIT License - możesz swobodnie używać, modyfikować i dystrybuować
+MIT License - you can freely use, modify and distribute
 ```
 
 ---
@@ -353,17 +353,17 @@ MIT License - możesz swobodnie używać, modyfikować i dystrybuować
 
 <div align="center">
 
-## 🍷 Uéloce - Nowa Era Aperitifu
+## 🍷 Uéloce - A New Era of Aperitif
 
-**Gdzie smak spotyka się z designem**
+**Where taste meets design**
 
-[![Deploy to Vercel](https://img.shields.io/badge/Deploy%20to-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/import/project?template=https://github.com/TWOJA_NAZWA/veloce)
-[![Deploy to Netlify](https://img.shields.io/badge/Deploy%20to-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://app.netlify.com/start/deploy?repository=https://github.com/TWOJA_NAMA/veloce)
+[![Deploy to Vercel](https://img.shields.io/badge/Deploy%20to-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/import/project?template=https://github.com/JakubStankiewicz1/Ueloce)
+[![Deploy to Netlify](https://img.shields.io/badge/Deploy%20to-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://app.netlify.com/start/deploy?repository=https://github.com/JakubStankiewicz1/Ueloce)
 
 ---
 
 *"Véloce represents a new era of the aperitif, where flavor and functionality converge in a beautifully crafted, alcohol-free beverage."*
 
-**⭐ Jeśli podoba Ci się projekt, zostaw gwiazdkę!**
+**⭐ If you like this project, leave a star!**
 
 </div>
