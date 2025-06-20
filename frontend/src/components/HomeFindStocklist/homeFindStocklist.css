@@ -197,7 +197,7 @@
 
 @media screen and (max-width: 480px) {
     .homeFindStocklistContainerLeft {
-        height: 250px;
+        height: 350px;
     }
     
     .homeFindStocklistContainerRight {
@@ -214,8 +214,14 @@
         padding-top: 15px;
     }
 
+    .homeFindStocklistContainerLeftContainerBottom {
+        height: 60px !important;
+        min-height: 60px;
+    }
+
     .homeFindStocklistContainerLeftContainerBottomContainer {
-        height: 60px;
+        height: 100%;
+        min-height: 60px;
     }
     
     .homeFindStocklistContainerLeftContainerBottomContainerTextOne,
