@@ -6,9 +6,11 @@ const HomeContact = () => {
   return (
     <div className='homeContact'>
         <div className="homeContactContainer">
+
             {/* Left Part */}
             <div className="homeContactContainerLeft">
                 <div className="homeContactContainerLeftContainer">
+
                     {/* Top Part */}
                     <div className="homeContactContainerLeftContainerTop">
                         <NavLink to='/find-us' className="homeContactContainerLeftContainerTopContainer">
@@ -26,12 +28,14 @@ const HomeContact = () => {
                             </p>
                         </NavLink>
                     </div>
+
                 </div>
             </div>
 
             {/* Right Part */}
             <div className="homeContactContainerRight">
                 <div className="homeContactContainerRightContainer">
+
                     {/* Top Part */}
                     <div className="homeContactContainerRightContainerTop">
                         <div className="homeContactContainerRightContainerTopContainer">
@@ -49,6 +53,7 @@ const HomeContact = () => {
                             </p>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

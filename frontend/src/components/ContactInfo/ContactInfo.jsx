@@ -5,6 +5,7 @@ const ContactInfo = () => {
   return (
     <div className='contactInfo'>
         <div className="contactInfoContainer">
+
             {/* Left Part */}
             <div className="contactInfoContainerLeft">
                 <div className="contactInfoContainerLeftContainer">
@@ -61,6 +62,7 @@ const ContactInfo = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
   )

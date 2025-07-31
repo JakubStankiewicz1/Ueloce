@@ -258,7 +258,7 @@ npm run build
 
 Detailed instructions in [`DEPLOYMENT.md`](DEPLOYMENT.md)
 
----
+<!-- ---
 
 ## ⚡ Performance
 
@@ -275,7 +275,7 @@ Detailed instructions in [`DEPLOYMENT.md`](DEPLOYMENT.md)
 - **Largest Contentful Paint**: < 2.5s  
 - **Cumulative Layout Shift**: < 0.1
 - **Time to Interactive**: < 3.0s
-- **Lighthouse Score**: 95+
+- **Lighthouse Score**: 95+ -->
 
 ---
 
@@ -293,13 +293,13 @@ npm run build && npm run preview
 npm run lint
 ```
 
-### 📋 Code Conventions
+<!-- ### 📋 Code Conventions
 - **ESLint** - Automatic quality checking
 - **Prettier** - Code formatting (planned)
 - **Naming**: camelCase for JS, kebab-case for CSS
-- **Components**: PascalCase folders and files
+- **Components**: PascalCase folders and files -->
 
-### 🎯 Roadmap
+<!-- ### 🎯 Roadmap
 
 #### v1.1 (Planned)
 - [ ] **🌐 Internationalization** (i18n) - Multi-language support
@@ -315,7 +315,7 @@ npm run lint
 - [ ] **🤖 Chatbot** - Customer support
 - [ ] **📊 Analytics** - User behavior tracking
 
----
+--- -->
 
 ### 🐛 Bug Reports
 - **GitHub Issues** - Detailed problem description
@@ -332,10 +332,10 @@ npm run lint
 - **💡 Discussions**: [GitHub Discussions](https://github.com/JakubStankiewicz1/Ueloce/discussions)
 - **📧 Email**: stankiewicz.kuba152@gmail.com
 
-### 📚 Documentation
+<!-- ### 📚 Documentation
 - **📖 User Guide**: User documentation (planned)
 - **🔧 API Docs**: Technical documentation (when backend added)
-- **🎨 Style Guide**: Design guidelines (planned)
+- **🎨 Style Guide**: Design guidelines (planned) -->
 
 ---
 
@@ -349,7 +349,7 @@ MIT License - you can freely use, modify and distribute
 
 ---
 
----
+<!-- --- -->
 
 <div align="center">
 
@@ -357,12 +357,10 @@ MIT License - you can freely use, modify and distribute
 
 **Where taste meets design**
 
-[![Deploy to Vercel](https://img.shields.io/badge/Deploy%20to-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/import/project?template=https://github.com/JakubStankiewicz1/Ueloce)
-[![Deploy to Netlify](https://img.shields.io/badge/Deploy%20to-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://app.netlify.com/start/deploy?repository=https://github.com/JakubStankiewicz1/Ueloce)
 
 ---
 
-*"Véloce represents a new era of the aperitif, where flavor and functionality converge in a beautifully crafted, alcohol-free beverage."*
+<!-- *"Véloce represents a new era of the aperitif, where flavor and functionality converge in a beautifully crafted, alcohol-free beverage."* -->
 
 **⭐ If you like this project, leave a star!**
 

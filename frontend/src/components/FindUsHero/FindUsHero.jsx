@@ -11,14 +11,17 @@ const FindUsHero = () => {
             <div className="findUsHeroContainerImage">
                 <div className="findUsHeroContainerImageContainer">
                     <img src={assets.FindUsHero} alt="" className='findUsHeroContainerImageContainerImage' />
+
                     {/* Add image overlay */}
                     <div className="findUsHeroContainerImageOverlay"></div>
+
                 </div>
             </div>
 
             {/* Text Container */}
             <div className="findUsHeroContainerText">
                 <div className="findUsHeroContainerTextContainer">
+
                     {/* Top Part */}
                     <div className="findUsHeroContainerTextContainerTop">
                         <div className="findUsHeroContainerTextContainerTopContainer">
@@ -35,6 +38,7 @@ const FindUsHero = () => {
 
                             <div className="findUsHeroContainerTextContainerBottomContainerOne">
                                 <div className="findUsHeroContainerTextContainerBottomContainerOneContainer">
+
                                     {/* Left Part */}
                                     <div className="findUsHeroContainerTextContainerBottomContainerOneContainerLeft">
                                         <div className="findUsHeroContainerTextContainerBottomContainerOneContainerLeftContainer">
@@ -60,6 +64,7 @@ const FindUsHero = () => {
                                             </p>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
 
@@ -67,6 +72,7 @@ const FindUsHero = () => {
 
                             <div className="findUsHeroContainerTextContainerBottomContainerTwo">
                                 <div className="findUsHeroContainerTextContainerBottomContainerTwoContainer">
+
                                     {/* Left Part */}
                                     <div className="findUsHeroContainerTextContainerBottomContainerTwoContainerLeft">
                                         <div className="findUsHeroContainerTextContainerBottomContainerTwoContainerLeftContainer">
@@ -88,6 +94,7 @@ const FindUsHero = () => {
                                             </p>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
 
@@ -95,6 +102,7 @@ const FindUsHero = () => {
 
                             <div className="findUsHeroContainerTextContainerBottomContainerThree">
                                 <div className="findUsHeroContainerTextContainerBottomContainerThreeContainer">
+
                                     {/* Left Part */}
                                     <div className="findUsHeroContainerTextContainerBottomContainerThreeContainerLeft">
                                         <div className="findUsHeroContainerTextContainerBottomContainerThreeContainerLeftContainer">
@@ -116,6 +124,7 @@ const FindUsHero = () => {
                                             </p>
                                         </div>
                                     </div>
+                                    
                                 </div>
                             </div>
 

@@ -5,6 +5,7 @@ const AboutHero = () => {
   return (
     <div className='aboutHero'>
         <div className="aboutHeroContainer">
+
             {/* Top Part */}
             <div className="aboutHeroContainerTop">
                 <div className="aboutHeroContainerTopContainer">
@@ -22,6 +23,7 @@ const AboutHero = () => {
                     </p>
                 </div>
             </div>
+            
         </div>
     </div>
   )

@@ -24,6 +24,7 @@ const ContactForm = () => {
   return (
     <div className="contactForm">
       <div className="contactFormContainer">
+
         {/* Left Part - Contact Info */}
         <div className="contactFormContainerLeft">
           <div className="contactFormContainerLeftContainer">
@@ -110,6 +111,7 @@ const ContactForm = () => {
             </form>
           </div>
         </div>
+        
       </div>
     </div>
   );

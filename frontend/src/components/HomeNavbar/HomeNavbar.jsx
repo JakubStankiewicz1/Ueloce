@@ -8,6 +8,7 @@ const HomeNavbar = () => {
     <div className='homeNavbar'>
         <div className="homeNavbarContainer">
             <div className="homeNavbarContainerDiv">
+
                 {/* Left Part */}
                 <div className="homeNavbarContainerLeft">
                     <NavLink to="/" className="homeNavbarContainerLeftContainer">
@@ -64,6 +65,7 @@ const HomeNavbar = () => {
                                         </p>
                                     </NavLink>
                                 </div>
+                                
 
                             </div>
                         </div>

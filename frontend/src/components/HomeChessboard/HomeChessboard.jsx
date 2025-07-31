@@ -45,6 +45,7 @@ const HomeChessboard = () => {
   return (
     <div className='homeChessboard'>
       <div className="homeChessboardContainer">
+
         {/* First row */}
         <div className="chessboardRow">
           {renderSquares(0)}
@@ -54,6 +55,7 @@ const HomeChessboard = () => {
         <div className="chessboardRow">
           {renderSquares(1)}
         </div>
+        
       </div>
     </div>
   );

@@ -7,9 +7,11 @@ const HomeFindStocklist = () => {
   return (
     <div className='homeFindStocklist'>
         <div className="homeFindStocklistContainer">
+
             {/* Left Part */}
             <div className="homeFindStocklistContainerLeft">
                 <div className="homeFindStocklistContainerLeftContainer">
+
                     {/* Top Part */}
                     <div className="homeFindStocklistContainerLeftContainerTop">
                         <div className="homeFindStocklistContainerLeftContainerTopContainer">
@@ -30,11 +32,11 @@ const HomeFindStocklist = () => {
                                 -
                             </p>
 
-                            <div className="homeFindStocklistContainerLeftContainerBottomContainerTextTwoThree jaro-regular">
-                                {/* Add icon or text here if needed */}
-                            </div>
+                            <div className="homeFindStocklistContainerLeftContainerBottomContainerTextTwoThree jaro-regular"></div>
+                            
                         </NavLink>
                     </div>
+
                 </div>
             </div>
 
@@ -44,6 +46,7 @@ const HomeFindStocklist = () => {
                     <img src={assets.HomeFindStocklist} alt="" className='homeFindStocklistContainerRightContainerImage' />
                 </div>
             </div>
+
         </div>
     </div>
   )

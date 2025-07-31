@@ -11,8 +11,10 @@ const HomePrimavera = () => {
             <div className="homePrimaveraContainerImage">
                 <div className="homePrimaveraContainerImageContainer">
                     <img src={assets.HomePrimaveraImage} alt="" className='homePrimaveraContainerImageContainerImage' />
+
                     {/* Image Overlay */}
                     <div className="homePrimaveraContainerImageOverlay"></div>
+                    
                 </div>
             </div>
 

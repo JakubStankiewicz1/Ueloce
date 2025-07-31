@@ -134,7 +134,6 @@
   visibility: visible;
 }
 
-/* Mobile Menu Logo */
 .navbarMobileMenuLogo {
   position: absolute;
   top: 20px;
@@ -160,7 +159,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-/* Blokowanie scrollowania gdy mobile menu jest aktywne */
 body.mobile-menu-open {
   overflow: hidden !important;
   position: fixed !important;

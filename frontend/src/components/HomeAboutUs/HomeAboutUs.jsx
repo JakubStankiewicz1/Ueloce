@@ -6,6 +6,7 @@ const HomeAboutUs = () => {
   return (
     <div className="homeAboutUs">
       <div className="homeAboutUsContainer">
+
         {/* Top Part */}
         <div className="homeAboutUsContainerTop">
           <div className="homeAboutUsContainerTopContainer">
@@ -35,6 +36,7 @@ const HomeAboutUs = () => {
             </NavLink>
           </div>
         </div>
+        
       </div>
     </div>
   );

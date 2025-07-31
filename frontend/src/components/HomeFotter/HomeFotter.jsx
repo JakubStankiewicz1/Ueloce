@@ -6,6 +6,7 @@ const HomeFotter = () => {
   return (
     <div className='homeFotter'>
         <div className="homeFotterContainer">
+
             {/* Left Part */}
             <div className="homeFotterContainerLeft">
                 <NavLink to="/" className="homeFotterContainerLeftContainer">
@@ -23,6 +24,7 @@ const HomeFotter = () => {
                     </p>
                 </div>
             </div>
+            
         </div>
     </div>
   )

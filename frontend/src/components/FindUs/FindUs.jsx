@@ -9,6 +9,7 @@ const FindUs = () => {
             {/* Text Container */}
             <div className="findUsContainerText">
                 <div className="findUsContainerTextContainer">
+
                     {/* Top Part */}
                     <div className="findUsContainerTextContainerTop">
                         <div className="findUsContainerTextContainerTopContainer">
@@ -26,6 +27,7 @@ const FindUs = () => {
                             </p>
                         </div>
                     </div>
+                    
                 </div>
             </div>
 

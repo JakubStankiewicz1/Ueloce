@@ -5,12 +5,15 @@ const Drink = ({ name, size, image, description }) => {
   return (
     <div className='drink'>
         <div className="drinkContainer">
+
             {/* Image Container */}
             <div className="drinkContainerImage">
                 <div className="drinkContainerImageContainer">
                     <img src={image} alt="" className='drinkContainerImageContainerImage' />
+
                     {/* Hover overlay */}
                     <div className="drinkContainerImageOverlay"></div>
+                    
                 </div>
             </div>
 

@@ -7,6 +7,8 @@ const HomeHero = () => {
   return (
     <div className="homeHero">
       <div className="homeHeroContainer">
+
+
         {/* Image Container */}
         <div className="homeHeroContainerImage">
           <div className="homeHeroContainerImageContainer">
@@ -46,6 +48,8 @@ const HomeHero = () => {
             </div>
           </div>
         </div>
+
+        
       </div>
     </div>
   );

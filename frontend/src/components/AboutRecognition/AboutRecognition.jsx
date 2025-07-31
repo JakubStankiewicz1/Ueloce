@@ -34,9 +34,11 @@ const AboutRecognition = () => {
   return (
     <div className='aboutRecognition'>
         <div className="aboutRecognitionContainer">
+
             {/* Top Part */}
             <div className="aboutRecognitionContainerTop">
                 <div className="aboutRecognitionContainerTopContainer">
+
                     {/* Left Part */}
                     <div className="aboutRecognitionContainerTopContainerLeft">
                         <div className="aboutRecognitionContainerTopContainerLeftContainer">
@@ -59,6 +61,7 @@ const AboutRecognition = () => {
                                     {/* Info Element */}
                                     <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElement">
                                         <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementContainer">
+
                                             {/* Left Part */}
                                             <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeft">
                                                 <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeftContainer">
@@ -76,6 +79,7 @@ const AboutRecognition = () => {
                                                     </p>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
 
@@ -85,6 +89,7 @@ const AboutRecognition = () => {
                                     {/* Info Element */}
                                     <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElement">
                                         <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementContainer">
+
                                             {/* Left Part */}
                                             <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeft">
                                                 <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeftContainer">
@@ -102,6 +107,7 @@ const AboutRecognition = () => {
                                                     </p>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
 
@@ -112,6 +118,7 @@ const AboutRecognition = () => {
                                     {/* Info Element */}
                                     <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElement">
                                         <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementContainer">
+
                                             {/* Left Part */}
                                             <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeft">
                                                 <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeftContainer">
@@ -129,6 +136,7 @@ const AboutRecognition = () => {
                                                     </p>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
 
@@ -138,6 +146,7 @@ const AboutRecognition = () => {
                                     {/* Info Element */}
                                     <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElement">
                                         <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementContainer">
+
                                             {/* Left Part */}
                                             <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeft">
                                                 <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeftContainer">
@@ -155,6 +164,7 @@ const AboutRecognition = () => {
                                                     </p>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
 
@@ -164,6 +174,7 @@ const AboutRecognition = () => {
                                     {/* Info Element */}
                                     <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElement">
                                         <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementContainer">
+
                                             {/* Left Part */}
                                             <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeft">
                                                 <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeftContainer">
@@ -181,6 +192,7 @@ const AboutRecognition = () => {
                                                     </p>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
 
@@ -190,6 +202,7 @@ const AboutRecognition = () => {
                                     {/* Info Element */}
                                     <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElement">
                                         <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementContainer">
+
                                             {/* Left Part */}
                                             <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeft">
                                                 <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeftContainer">
@@ -207,6 +220,7 @@ const AboutRecognition = () => {
                                                     </p>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
 
@@ -216,6 +230,7 @@ const AboutRecognition = () => {
                                     {/* Info Element */}
                                     <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElement">
                                         <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementContainer">
+
                                             {/* Left Part */}
                                             <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeft">
                                                 <div className="aboutRecognitionContainerTopContainerLeftContainerMiddleContainerElementLeftContainer">
@@ -233,6 +248,7 @@ const AboutRecognition = () => {
                                                     </p>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
 
@@ -256,6 +272,7 @@ const AboutRecognition = () => {
                         {/* Text Container */}
                         <div className="aboutRecognitionContainerTopContainerRightText">
                             <div className="aboutRecognitionContainerTopContainerRightTextContainer">
+
                                 <div className="aboutRecognitionContainerTopContainerRightTextContainerOne">
                                     <div className="aboutRecognitionContainerTopContainerRightTextContainerOneContainer">
                                         <div className="aboutRecognitionContainerTopContainerRightTextContainerOneContainerButton">
@@ -278,6 +295,7 @@ const AboutRecognition = () => {
 
                                 <div className="aboutRecognitionContainerTopContainerRightTextContainerThree">
                                     <div className="aboutChessboard">
+
                                         {/* First row */}
                                         <div className="aboutChessboardRow">
                                             {renderSquares(0)}
@@ -287,8 +305,10 @@ const AboutRecognition = () => {
                                         <div className="aboutChessboardRow">
                                             {renderSquares(1)}
                                         </div>
+                                        
                                     </div>
                                 </div>
+
                             </div>
                         </div>
 
@@ -310,6 +330,7 @@ const AboutRecognition = () => {
                     {/* Right Part */}
                     <div className="aboutRecognitionContainerBottomContainerRight">
                         <div className="aboutRecognitionContainerBottomContainerRightContainer">
+
                             {/* Top Part */}
                             <div className="aboutRecognitionContainerBottomContainerRightContainerTop">
                                 <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainer">
@@ -329,6 +350,7 @@ const AboutRecognition = () => {
 
                                             <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElement">
                                                 <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainer">
+
                                                     {/* Left Part */}
                                                     <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeft">
                                                         <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeftContainer">
@@ -351,6 +373,7 @@ const AboutRecognition = () => {
 
                                             <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElement">
                                                 <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainer">
+
                                                     {/* Left Part */}
                                                     <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeft">
                                                         <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeftContainer">
@@ -373,6 +396,7 @@ const AboutRecognition = () => {
 
                                             <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElement">
                                                 <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainer">
+
                                                     {/* Left Part */}
                                                     <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeft">
                                                         <div className="aboutRecognitionContainerBottomContainerRightContainerTopContainerBottomContainerElementContainerLeftContainer">
@@ -390,6 +414,7 @@ const AboutRecognition = () => {
                                                             </p>
                                                         </div>
                                                     </div>
+
                                                 </div>
                                             </div>
 
@@ -410,6 +435,7 @@ const AboutRecognition = () => {
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
 

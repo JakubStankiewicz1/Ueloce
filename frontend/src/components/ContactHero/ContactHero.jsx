@@ -5,6 +5,7 @@ const ContactHero = () => {
   return (
     <div className='contactHero'>
         <div className="contactHeroContainer">
+            
             {/* Top Part */}
             <div className="contactHeroContainerTop">
                 <div className="contactHeroContainerTopContainer">
@@ -22,6 +23,7 @@ const ContactHero = () => {
                     </p>
                 </div>
             </div>
+
         </div>
     </div>
   )
