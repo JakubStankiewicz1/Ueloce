@@ -148,6 +148,10 @@
   transform: scale(1.1);
 }
 
+.navbarMobileMenuItemContainer.active .navbarMobileMenuItemText {
+  color: #cd9d65;
+}
+
 .navbarMobileMenuItemText {
   color: #ffffff;
   font-size: 36px;

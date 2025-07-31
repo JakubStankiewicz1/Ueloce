@@ -84,19 +84,41 @@ const Navbar = () => {
       <div className={`navbarMobileMenu ${isMobileMenuOpen ? "active" : ""}`}>
         <div className="navbarMobileMenuContainer">
           <div className="navbarMobileMenuItem">
-            <NavLink to="/about" className="navbarMobileMenuItemContainer" onClick={closeMobileMenu}>
+            <NavLink 
+              to="/" 
+              className={({ isActive }) => `navbarMobileMenuItemContainer ${isActive ? 'active' : ''}`} 
+              onClick={closeMobileMenu}
+            >
+              <p className="navbarMobileMenuItemText jaro-regular">Home</p>
+            </NavLink>
+          </div>
+
+          <div className="navbarMobileMenuItem">
+            <NavLink 
+              to="/about" 
+              className={({ isActive }) => `navbarMobileMenuItemContainer ${isActive ? 'active' : ''}`} 
+              onClick={closeMobileMenu}
+            >
               <p className="navbarMobileMenuItemText jaro-regular">About</p>
             </NavLink>
           </div>
 
           <div className="navbarMobileMenuItem">
-            <NavLink to="/find-us" className="navbarMobileMenuItemContainer" onClick={closeMobileMenu}>
+            <NavLink 
+              to="/find-us" 
+              className={({ isActive }) => `navbarMobileMenuItemContainer ${isActive ? 'active' : ''}`} 
+              onClick={closeMobileMenu}
+            >
               <p className="navbarMobileMenuItemText jaro-regular">Find Us</p>
             </NavLink>
           </div>
 
           <div className="navbarMobileMenuItem">
-            <NavLink to="/contact" className="navbarMobileMenuItemContainer" onClick={closeMobileMenu}>
+            <NavLink 
+              to="/contact" 
+              className={({ isActive }) => `navbarMobileMenuItemContainer ${isActive ? 'active' : ''}`} 
+              onClick={closeMobileMenu}
+            >
               <p className="navbarMobileMenuItemText jaro-regular">Contact</p>
             </NavLink>
           </div>
