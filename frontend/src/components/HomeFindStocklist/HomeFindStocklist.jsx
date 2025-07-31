@@ -31,7 +31,7 @@ const HomeFindStocklist = () => {
                             </p>
 
                             <div className="homeFindStocklistContainerLeftContainerBottomContainerTextTwoThree jaro-regular">
-                                >
+                                {/* Add icon or text here if needed */}
                             </div>
                         </NavLink>
                     </div>
