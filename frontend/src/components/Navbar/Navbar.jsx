@@ -27,12 +27,28 @@ const Navbar = () => {
   useEffect(() => {
     if (isMobileMenuOpen) {
       document.body.style.overflow = "hidden";
+      document.body.style.position = "fixed";
+      document.body.style.width = "100%";
+      document.body.style.top = `-${window.scrollY}px`;
+      document.body.classList.add('mobile-menu-open');
     } else {
+      const scrollY = document.body.style.top;
       document.body.style.overflow = "unset";
+      document.body.style.position = "";
+      document.body.style.width = "";
+      document.body.style.top = "";
+      document.body.classList.remove('mobile-menu-open');
+      if (scrollY) {
+        window.scrollTo(0, parseInt(scrollY || "0") * -1);
+      }
     }
 
     return () => {
       document.body.style.overflow = "unset";
+      document.body.style.position = "";
+      document.body.style.width = "";
+      document.body.style.top = "";
+      document.body.classList.remove('mobile-menu-open');
     };
   }, [isMobileMenuOpen]);
 
@@ -82,6 +98,13 @@ const Navbar = () => {
 
       {/* Mobile Menu Overlay */}
       <div className={`navbarMobileMenu ${isMobileMenuOpen ? "active" : ""}`}>
+        {/* Mobile Menu Logo */}
+        <div className="navbarMobileMenuLogo">
+          <NavLink to="/" className="navbarMobileMenuLogoContainer" onClick={closeMobileMenu}>
+            <p className="navbarMobileMenuLogoText jaro-regular">Véloce</p>
+          </NavLink>
+        </div>
+
         <div className="navbarMobileMenuContainer">
           <div className="navbarMobileMenuItem">
             <NavLink 
